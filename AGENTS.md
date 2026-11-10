@@ -5,7 +5,7 @@
 ## Darbo ribos
 
 - Keisk tik šios Mazda kolekcijos saugyklos failus. Neadministruok kitų saugyklų, paskyrų, DNS ar prieigos leidimų be atskiro naudotojo nurodymo.
-- Svetainė statinė, be build priklausomybių. GitHub Pages publikuoja `main` šaknį. Išsaugok `CNAME`, `.nojekyll`, juodą/lime dizainą (`#090d0a` / `#b9ff42`), paiešką, filtrus ir galerijas.
+- Svetainė statinė, be build priklausomybių. GitHub Pages publikuoja `main` šaknį. Išsaugok `CNAME`, `.nojekyll`, abi temas: esamą juodą/lime (`#090d0a` / `#b9ff42`) ir šviesią (`#f7f5ef` / tamsesnė žalia `#356519`), paiešką, filtrus ir galerijas.
 - Prieš darbą perskaityk aktualią nuotolinę `main`, o ne pasikliauk ankstesnio pokalbio ar vietinės kopijos duomenimis. Saugok lygiagrečius pakeitimus; neatlik force push.
 
 ## Nauji modeliukai
@@ -39,3 +39,7 @@
 - Laikykis debesijos tinklo politikos. Daryk tik oficialiai palaikomus konfigūracijos pakeitimus ir tikrink jų taikymą vykdomai sesijai. Reusable aplinkos Publish neįrodo, kad sena sesija jau atnaujinta. Nebandyk tinklo ribojimų apeiti; pateik tikslų blokavimą ir tęstinumo instrukciją naujai sesijai.
 
 Bendrauk lietuviškai, glaustai ir paprastai. Visada aiškiai pasakyk, kas tik paruošta, kas įkelta, kas paskelbta ir kas dar nepatikrinta.
+
+## Temų priežiūra
+
+Išsaugok aiškų „Šviesi / Tamsi“ pasirinkimą ir `aria-pressed` būseną. Pirmo apsilankymo temą nustatyk anksti `head` pagal `prefers-color-scheme`; galiojantį rankinį pasirinkimą laikyk `localStorage`, klaidas apdorok saugiai. Rankinio pasirinkimo sistemos temos pokytis neturi pakeisti. Visų komponentų spalvas imk iš temos kintamųjų. Keičiant temų kodą patikrink abu režimus telefono plotyje, išsaugojimą po reload, sistemos pasirinkimą be įrašo, sistemos temos pasikeitimą, neprieinamą storage ir `theme-color`.

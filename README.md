@@ -15,3 +15,5 @@ Catalog images are externally hosted and attributed in the detail gallery. Each 
 New photographs are published only as copies stripped of EXIF/GPS, XMP, IPTC, comments and embedded auxiliary images. Their main JPEG pixels, dimensions and ICC color profile are preserved; original uploads stay outside the public repository.
 
 Entries may specify publisher separately from maker, a confirmed or unconfirmed scale, and a condition. Hachette Collections Japan is a publisher; the Familia manufacturer is unconfirmed. Manufacturer counts include only confirmed makers. The packaged count includes display cases, with each entry showing its specific condition. Photos accept URLs or labeled objects; keep the owner’s main model photograph last.
+
+Theme choice: the header has accessible Light/Dark buttons (Šviesi / Tamsi). An early head script applies a valid saved `mazda-collection-theme` preference, otherwise follows `prefers-color-scheme`, including system changes until a manual choice. Storage read/write failures are safe. Both palettes cover page surfaces, controls and dialogs; theme-color follows the active theme.

@@ -4,13 +4,52 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mazda kolekcija · Povilaitis</title>
 <meta name="description" content="Asmeninė Mazda modeliukų kolekcija. Hot Wheels, Matchbox ir mažos didelių automobilių istorijos.">
-<meta name="theme-color" content="#090d0a">
-<link rel="stylesheet" href="style.css?v=collection-7-1">
-<script src="collection.js?v=collection-7-1" defer></script><script src="app.js?v=collection-7-1" defer></script>
+<meta name="theme-color" content="#f7f5ef">
+<script>
+(() => {
+  const key = 'mazda-collection-theme';
+  const root = document.documentElement;
+  let manual = null;
+  let system = null;
+  try { system = window.matchMedia('(prefers-color-scheme: dark)'); } catch (_) {}
+  try {
+    const saved = window.localStorage.getItem(key);
+    if (saved === 'light' || saved === 'dark') manual = saved;
+  } catch (_) {}
+  const syncControls = () => document.querySelectorAll('[data-theme-choice]').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.themeChoice === root.dataset.theme));
+  });
+  const apply = theme => {
+    root.dataset.theme = theme;
+    root.style.colorScheme = theme;
+    document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#090d0a' : '#f7f5ef';
+    syncControls();
+  };
+  const followSystem = () => { if (!manual) apply(system && system.matches ? 'dark' : 'light'); };
+  const select = theme => {
+    if (theme !== 'light' && theme !== 'dark') return;
+    manual = theme;
+    apply(theme);
+    try { window.localStorage.setItem(key, theme); } catch (_) {}
+  };
+  window.mazdaTheme = {syncControls};
+  apply(manual || (system && system.matches ? 'dark' : 'light'));
+  if (system && system.addEventListener) system.addEventListener('change', followSystem);
+  else if (system && system.addListener) system.addListener(followSystem);
+  document.addEventListener('click', event => {
+    const button = event.target.closest('[data-theme-choice]');
+    if (button) select(button.dataset.themeChoice);
+  });
+  document.addEventListener('DOMContentLoaded', syncControls);
+})();
+</script>
+<link rel="stylesheet" href="style.css?v=themes-1">
+<script src="collection.js?v=themes-1" defer></script><script src="app.js?v=themes-1" defer></script>
 </head>
 <body>
 <a class="skip" href="#kolekcija">Pereiti prie kolekcijos</a>
-<header class="top"><a class="brand" href="./"><span class="mark">M</span> MAZDA <span>KOLEKCIJA</span></a><a href="#kolekcija">Naršyti kolekciją ↗</a></header>
+<header class="top"><a class="brand" href="./"><span class="mark">M</span> MAZDA <span>KOLEKCIJA</span></a><div class="header-actions"><a href="#kolekcija">Naršyti kolekciją ↗</a><div class="theme-switch" role="group" aria-label="Spalvų tema"><button type="button" class="theme-choice" data-theme-choice="light" aria-label="Šviesi tema" aria-pressed="false">Šviesi</button><button type="button" class="theme-choice" data-theme-choice="dark" aria-label="Tamsi tema" aria-pressed="false">Tamsi</button></div></div></header>
+<script>window.mazdaTheme.syncControls();</script>
 <main>
 <section class="hero"><div><p class="eyebrow">POVILAITIS / ASMENINĖ KOLEKCIJA</p><h1>Mažas mastelis.<br><span>Didelė aistra.</span></h1><p class="intro">Tik „Mazda“. Nuo rotacinės legendos iki lengvojo rodsterio – mano kolekcijos automobiliai ir jų istorijos.</p><a class="primary" href="#kolekcija">Atrask modeliukus <span>↓</span></a></div><aside class="hero-aside"><span class="outline">MAZDA</span><p>KIEKVIENAS MODELIS –<br>DALIS ISTORIJOS.</p><span class="edition">KOLEKCIJOS KATALOGAS / 001</span></aside></section>
 <section class="stats" aria-label="Kolekcijos statistika"><div><strong id="total">7</strong><span>modeliukai kolekcijoje</span></div><div><strong id="makers">3</strong><span>patvirtinti gamintojai</span></div><div><strong id="packed">6</strong><span>pakuotėje arba dėkle</span></div><div><strong class="date" id="updated">2026-11-10</strong><span>paskutinis papildymas</span></div></section>

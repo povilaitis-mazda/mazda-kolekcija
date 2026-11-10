@@ -1,3 +1,4 @@
+window.mazdaTheme?.syncControls();
 const items = window.collection;
 const $ = id => document.getElementById(id);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
