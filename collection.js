@@ -375,7 +375,12 @@ window.collection = [
         "url": "photos/2026-11-10/mazda3-matchbox-2019-black-14.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://www.rarewaves.com/cdn/shop/files/orig_15095491_28973536_20260529090456_c49b92ad-dcee-4fa2-9020-f92e197e98de.jpg?v=1780095306&width=416",
+      "sourceUrl": "https://www.rarewaves.com/products/0194735354726-cars-colour-change-hj-hollis-toys",
+      "sourceName": "Rarewaves"
+    }
   },
   {
     "id": "rx7-hotwheels-drift-red-95",
@@ -448,7 +453,12 @@ window.collection = [
         "url": "photos/2026-11-10/mx5-hotwheels-dreamgarage-blue-5.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://topcollectibles.com/cdn/shop/files/hot-wheels-mazda-mx-5-miata-2026diecasthot-wheels-7514163.jpg?v=1783624864&width=1080",
+      "sourceUrl": "https://topcollectibles.com/products/hot-wheels-mazda-mx-5-miata-2028",
+      "sourceName": "Top Collectibles"
+    }
   },
   {
     "id": "rx7-hotwheels-raceoff-white-hks",
