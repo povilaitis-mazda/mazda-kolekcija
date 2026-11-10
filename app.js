@@ -1,5 +1,5 @@
 window.mazdaTheme?.syncControls();
-const items = window.collection;
+const items = [...window.collection].reverse().sort((a, b) => b.added.localeCompare(a.added));
 const $ = id => document.getElementById(id);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const approximateScale = item => item.scaleApproximate ?? item.scaleNote.startsWith('Apytikslis');
