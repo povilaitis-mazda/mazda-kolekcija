@@ -13,7 +13,7 @@ window.collection = [
     "packaged": true,
     "added": "2026-11-09",
     "description": "Sidabrinis kėbulas ir auksiniai penkių stipinų ratlankiai. „Matchbox“ Mazda RX-8, kolekcijoje saugoma originalioje pakuotėje.",
-    "story": "RX-8 išsiskiria rotacinio variklio koncepcija ir atgal atveriamomis galinėmis durimis. Šis modeliukas atkartoja 2004 metų automobilį. Automobilio modelio metai nereiškia modeliuko pagaminimo metų.",
+    "story": "RX-8 išsiskiria rotorinio variklio koncepcija ir atgal atveriamomis galinėmis durimis. Šis modeliukas atkartoja 2004 metų automobilį. Automobilio modelio metai nereiškia modeliuko pagaminimo metų.",
     "catalog": {
       "url": "https://collectorsworldtoys.com/cdn/shop/files/Matchbox-2004-Mazda-RX-8_2.webp?v=1767408575&width=1200",
       "sourceUrl": "https://collectorsworldtoys.com/products/2026-matchbox-series-19-125-2004-mazda-rx-8",
@@ -60,7 +60,7 @@ window.collection = [
     "condition": "Ant ekspozicinio pagrindo, skaidriame dėkle",
     "conditionTag": "Dėkle",
     "description": "Baltas „Mazda Familia Rotary Coupe M10A“ ant ekspozicinio pagrindo skaidriame dėkle. Pagrindo lentelėje nurodyti automobilio metai – 1968. Pakuotės etiketėje patvirtintas mastelis 1:43. Leidėjas – „Hachette Collections Japan“; fizinis modeliuko gamintojas nepatvirtintas.",
-    "story": "„Familia Rotary Coupe“ – kompaktiškas „Mazda“ kupė su rotaciniu varikliu. Ši miniatiūra vaizduoja 1968 metų M10A automobilį. Automobilio metai nėra modeliuko išleidimo metai; šio egzemplioriaus leidimo metų netvirtiname.",
+    "story": "„Familia Rotary Coupe“ – kompaktiškas „Mazda“ kupė su rotoriniu varikliu. Ši miniatiūra vaizduoja 1968 metų M10A automobilį. Automobilio metai nėra modeliuko išleidimo metai; šio egzemplioriaus leidimo metų netvirtiname.",
     "catalog": {
       "url": "https://diecast.com.ua/99829-large_default/mazda-familia-rotary-coupe.jpg",
       "sourceUrl": "https://diecast.com.ua/en/13452-mazda-familia-rotary-coupe.html",
@@ -485,5 +485,281 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ]
+  },
+  {
+    "id": "autozam-hotwheels-dreamgarage-red-8",
+    "name": "Mazda Autozam · HW Dream Garage",
+    "model": "Autozam",
+    "maker": "Hot Wheels",
+    "scale": "Nepatvirtintas",
+    "scaleNote": "Tikslus šio stipriai stilizuoto modeliuko mastelis pakuotės priekio nuotraukoje nenurodytas.",
+    "series": "HW Dream Garage · 1/5 · 8/250",
+    "color": "Raudona",
+    "description": "Raudonas „Hot Wheels“ Mazda Autozam su labai dideliais ratais, sidabro spalvos pakelta važiuokle, papildomais žibintais ant stogo ir balta bei mėlyna dekoracija. Originalioje pakuotėje: „HW Dream Garage“ 1/5 ir 8/250.",
+    "story": "Fantazijai artima, stipriai pakelta Mazda kei sunkvežimio interpretacija. Šį variantą atpažįstame pagal raudoną kėbulą, žvaigždės ženklą ir serijos numerius; tikslaus proporcinio mastelio ar leidimo metų iš pateiktos nuotraukos nepriskiriame.",
+    "catalog": {
+      "url": "https://collectorsworldtoys.com/cdn/shop/files/hot-wheels-red-mazda-autozam-hyw66-1-front.jpg?v=1794285377",
+      "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-mazda-autozam-hw-dream-garage-series-1-5",
+      "sourceName": "Collectors World Toys"
+    },
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/autozam-hotwheels-dreamgarage-red-8.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx8-fast-furious-blue-black",
+    "name": "Mazda RX-8 · Fast & Furious",
+    "model": "RX-8",
+    "maker": "Nepatvirtintas",
+    "scale": "Nepatvirtintas",
+    "scaleNote": "Šio egzemplioriaus mastelis pateiktoje nuotraukoje nepatvirtintas; jo nepriskiriame vien pagal pardavėjo panašaus modelio aprašymą.",
+    "series": "Fast & Furious · mėlynas ir juodas variantas",
+    "color": "Mėlyna ir juoda",
+    "condition": "Ant ekspozicinio pagrindo, skaidriame dėkle",
+    "conditionTag": "Dėkle",
+    "description": "Šviesiai mėlynas ir juodas Mazda RX-8 su dideliu galiniu spoileriu, modifikuotu kėbulu bei sidabro spalvos ratlankiais. Ant ekspozicinio pagrindo nurodyta „Mazda RX-8“ ir „Fast & Furious“. Saugomas skaidriame dėkle. Fizinis gamintojas ir mastelis nepatvirtinti.",
+    "story": "Mėlynos ir juodos spalvų „Fast & Furious“ RX-8 variantas. Nuo sidabrinių „Matchbox“ RX-8 jį skiria dekoracija, kėbulo apdaila ir ekspozicinis dėklas. RX-8 šeima siejama su rotoriniu varikliu; šio modeliuko išleidimo metų nepriskiriame.",
+    "catalog": {
+      "url": "https://obsessedwithcars.co.uk/cdn/shop/files/20250607_1407381.jpg?v=1749311005",
+      "sourceUrl": "https://obsessedwithcars.co.uk/products/1-43-2004-mazda-rx-8-fast-furious",
+      "sourceName": "Obsessed With Cars"
+    },
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx8-fast-furious-blue-black.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx7-solido-itasha-black-pink",
+    "name": "Mazda RX-7 Type RS (FD3S) · Itasha Club",
+    "model": "RX-7",
+    "maker": "Solido",
+    "scale": "1:18",
+    "scaleNote": "Mastelis 1:18 patvirtintas šio „Solido“ varianto S1810605 gamintojo kataloge.",
+    "series": "Solido Works · Itasha Club · S1810605",
+    "color": "Juoda ir rožinė",
+    "condition": "Su ekspoziciniu pagrindu ir „Solido“ dėže",
+    "conditionTag": "Su dėže",
+    "description": "Juodas „Solido“ Mazda RX-7 Type RS (FD3S) su ryškia rožine grafika, anime personažu, „ITASHA CLUB“ užrašais ir rėmėjų ženklais ant galinio stiklo. Mastelis 1:18, gamintojo katalogo numeris S1810605. Saugomas „Solido“ dėžėje su langu.",
+    "story": "Itasha – automobilio apipavidalinimo kryptis su anime ar kitų popkultūros personažų vaizdais. Šį RX-7 variantą identifikuoja juoda ir rožinė dekoracija bei „Itasha Club“ tema. Automobilio ir modeliuko leidimo metų šiame įraše nepriskiriame.",
+    "catalog": {
+      "url": "https://www.stmdiecast.com/cdn/shop/files/mazda-rx7-fd3rs-solido-works-itasha-club-1999-03.jpg?v=1750344473&width=990",
+      "sourceUrl": "https://www.stmdiecast.com/products/solido-1999-mazda-rx7-fd3rs-black-and-fuscia-1-18",
+      "sourceName": "STM Diecast"
+    },
+    "specificationSources": [
+      {
+        "name": "Solido – S1810605",
+        "url": "https://www.solido.com/en/la-collection/s1810605-mazda-rx7-fd3rs-solido-works-itasha-club-1999/"
+      }
+    ],
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-solido-itasha-black-pink.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx7-jada-labmonkeys-saru-black",
+    "name": "1993 Mazda RX-7 · Lab Monkeys / Saru",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:24",
+    "scaleNote": "Mastelis 1:24 patvirtintas tikslaus „Lab Monkeys / Saru“ rinkinio oficialiame „Jada Next Level“ apraše.",
+    "series": "Hollywood Rides · Lab Monkeys / Saru · 35668",
+    "color": "Juoda ir raudona",
+    "condition": "Su Saru figūrėle ir dėže",
+    "conditionTag": "Su figūrėle ir dėže",
+    "description": "Juodas „Jada“ Mazda RX-7 su raudona ir balta grafika, aukso spalvos ratlankiais, raudonu salonu ir dideliu raudonu galiniu spoileriu. Rinkinyje yra Saru figūrėlė samurajaus šarvais ir dėžė. „Lab Monkeys“ rinkinys, mastelis 1:24, katalogo numeris 35668.",
+    "story": "„Jada“ ir „Lab Monkeys“ bendradarbiavimo RX-7 variantas su Saru figūrėle. Jį išskiria juoda ir raudona apdaila bei aukso spalvos ratai. Oficialaus produkto pavadinimo 1993 metai nurodo automobilį, ne modeliuko pagaminimo metus.",
+    "catalog": {
+      "url": "https://www.jadanextlevel.com/cdn/shop/files/HollywoodRides-LabMonkeys-124withFIGURE-Saru-1993MazdaRX7-GlossyBlack-35668-20.jpg?v=1718929636&width=1080",
+      "sourceUrl": "https://www.jadanextlevel.com/products/lab-monkeys-saru-1993-mazda-rx-7-1-24-scale-vehicle-2-75-figure",
+      "sourceName": "Jada Toys – Jada Next Level"
+    },
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-jada-labmonkeys-saru-black.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx3-jada-power-rangers-blue",
+    "name": "1974 Mazda RX-3 · Blue Ranger",
+    "model": "RX-3",
+    "maker": "Jada",
+    "scale": "1:24",
+    "scaleNote": "Mastelis 1:24 nurodytas šio „Jada“ 34389 „Blue Ranger“ rinkinio kataloginiame apraše.",
+    "series": "Hollywood Rides · Power Rangers · Blue Ranger · 34389",
+    "color": "Mėlyna ir balta",
+    "condition": "Dėžėje su „Blue Ranger“ figūrėle",
+    "conditionTag": "Su figūrėle ir dėže",
+    "description": "Mėlynas „Jada“ 1974 Mazda RX-3 su baltais geometriniais raštais, geltonu „Power Rangers“ ženklu ant durų ir plačiais sidabro spalvos ratlankiais. Originalioje dėžėje su „Blue Ranger“ figūrėle; ant pakuotės aiškiai nurodytas automobilis ir rinkinio tema. Mastelis 1:24.",
+    "story": "„Power Rangers“ teminis „Jada“ rinkinys. Šis RX-3 yra atskiras nuo mėlyno mažojo „Hot Wheels Tooned“ RX-3: skiriasi gamintojas, proporcijos, dekoracija ir komplektacija. Pakuotės 1974 metai nurodo automobilį, ne modeliuko leidimo metus.",
+    "catalog": {
+      "url": "https://cdn11.bigcommerce.com/s-rejby4tfjq/images/stencil/1000x667/products/12623/51570/34389-JADA-HWR-1974-Mazda-RX-3-w-Blue-Power-Ranger-124-7__43206.1686067950.jpg?c=1",
+      "sourceUrl": "https://modeltoycars.com/1974-mazda-rx-3-w-blue-ranger-figurine-power-rangers-jada-toys-34389-1-24-scale-diecast-car/",
+      "sourceName": "ModelToyCars – Jada 34389"
+    },
+    "specificationSources": [
+      {
+        "name": "Toy Wonders – Jada 34389",
+        "url": "https://www.toywonders.com/ProductCart/pc/Jada-Toys-Hollywood-Rides-Power-Rangers-Mazda-RX-3-with-Blue-Ranger-Diecast-Figurine-1974-1-24-diecast-model-car-Candy-Blue-34389-p32396.htm"
+      }
+    ],
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx3-jada-power-rangers-blue.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx7-solido-neon-green",
+    "name": "Mazda RX-7 Type RS (FD3S) · Neon Green",
+    "model": "RX-7",
+    "maker": "Solido",
+    "scale": "1:18",
+    "scaleNote": "Mastelis 1:18 patvirtintas šio „Solido“ varianto S1810606 gamintojo kataloge.",
+    "series": "Solido Works · Neon Green · S1810606",
+    "color": "Neoninė žalia",
+    "condition": "Su ekspoziciniu pagrindu ir „Solido“ dėže",
+    "conditionTag": "Su dėže",
+    "description": "Ryškiai žalias „Solido“ Mazda RX-7 Type RS (FD3S) su juodu salonu, dideliu galiniu spoileriu, juodomis jo atramomis ir tamsiais ratlankiais su sidabro spalvos apvadais. Mastelis 1:18, gamintojo katalogo numeris S1810606. Saugomas dėžėje su langu.",
+    "story": "„Neon Green“ – atskiras „Solido Works“ RX-7 variantas be rožinės „Itasha Club“ grafikos. Gamintojo kataloge nurodytas mastelis 1:18; automobilio ir modeliuko leidimo metų šiame įraše nepriskiriame.",
+    "catalog": {
+      "url": "https://selectionrs.com/197376-marketplace_default/mazda-rx7-fd3rs-1994-neongrun-1-18-solido-s1810606.jpg",
+      "sourceUrl": "https://selectionrs.com/fr/mazda/28561-mazda-rx7-fd3rs-1994-vert-neon-1-18-solido-s1810606.html",
+      "sourceName": "Selection RS"
+    },
+    "specificationSources": [
+      {
+        "name": "Solido – S1810606",
+        "url": "https://www.solido.com/en/la-collection/s1810606-mazda-rx7-fd3rs-solido-works-neon-green-1999/"
+      }
+    ],
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-solido-neon-green.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
+  },
+  {
+    "id": "rx8-matchbox-boxed-unit",
+    "name": "2004 Mazda RX-8 · dėžutėje",
+    "model": "RX-8",
+    "maker": "Matchbox",
+    "scale": "1:64",
+    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "series": "19/125 · dėžutėje",
+    "color": "Sidabrinė",
+    "packaged": true,
+    "added": "2026-11-10",
+    "description": "Papildomas „Matchbox“ 2004 Mazda RX-8 vienetas, numeris 19/125. Naudotojas patvirtino, kad tai atskiras turimas vienetas, ne anksčiau užregistruotas egzempliorius lizdinėje pakuotėje. Šis saugomas kartoninėje dėžutėje; pateiktoje fotografijoje matoma pakuotė.",
+    "story": "RX-8 išsiskiria rotorinio variklio koncepcija ir atgal atveriamomis galinėmis durimis. Šis modeliukas atkartoja 2004 metų automobilį. Automobilio modelio metai nereiškia modeliuko pagaminimo metų.",
+    "catalog": {
+      "url": "https://collectorsworldtoys.com/cdn/shop/files/Matchbox-2004-Mazda-RX-8_2.webp?v=1767408575&width=1200",
+      "sourceUrl": "https://collectorsworldtoys.com/products/2026-matchbox-series-19-125-2004-mazda-rx-8",
+      "sourceName": "Collectors World Toys"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx8-matchbox-boxed-unit.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "variantOf": "rx8-matchbox",
+    "condition": "Kartoninėje „Matchbox“ dėžutėje",
+    "conditionTag": "Dėžutėje",
+    "scaleApproximate": true
+  },
+  {
+    "id": "mazda3-matchbox-boxed-unit",
+    "name": "2019 Mazda 3 · dėžutėje",
+    "model": "Mazda 3",
+    "maker": "Matchbox",
+    "series": "14/125 · dėžutėje",
+    "color": "Juoda",
+    "description": "Papildomas juodo „Matchbox“ 2019 Mazda 3 vienetas, numeris 14/125. Naudotojas patvirtino, kad tai atskiras turimas vienetas, ne anksčiau užregistruotas egzempliorius lizdinėje pakuotėje. Šis saugomas kartoninėje dėžutėje; pateiktoje fotografijoje matoma pakuotė.",
+    "story": "Mazda 3 miniatiūra atkartoja penkiadurių hečbeko kėbulą. Pavadinimo 2019 metai nurodo vaizduojamą automobilį; modeliuko pagaminimo ar leidimo metų pagal juos nepriskiriame.",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/mazda3-matchbox-boxed-unit.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "catalog": {
+      "url": "https://www.rarewaves.com/cdn/shop/files/orig_15095491_28973536_20260529090456_c49b92ad-dcee-4fa2-9020-f92e197e98de.jpg?v=1780095306&width=416",
+      "sourceUrl": "https://www.rarewaves.com/products/0194735354726-cars-colour-change-hj-hollis-toys",
+      "sourceName": "Rarewaves"
+    },
+    "variantOf": "mazda3-matchbox-2019-black-14",
+    "condition": "Kartoninėje „Matchbox“ dėžutėje",
+    "conditionTag": "Dėžutėje"
+  },
+  {
+    "id": "323f-whitebox-silver-green",
+    "name": "Mazda 323 F",
+    "model": "323 F",
+    "maker": "WhiteBox",
+    "scale": "1:24",
+    "scaleNote": "Mastelis 1:24 nurodytas šio sidabriškai žalio „WhiteBox“ varianto WB124259 kataloge (Model Car World).",
+    "series": "WhiteBox · WB124259",
+    "color": "Sidabriškai žalia",
+    "condition": "„WhiteBox“ dėžėje su langu ir ekspoziciniu pagrindu",
+    "conditionTag": "Su dėže",
+    "description": "Sidabriškai žalias metalizuotos spalvos „WhiteBox“ Mazda 323 F su juodomis šoninėmis juostomis, juodu salonu ir sidabro spalvos ratlankiais. Saugomas „WhiteBox“ dėžėje su langu; prie pagrindo nurodyta „MAZDA 323 F“. Šio varianto katalogo numeris WB124259, mastelis 1:24.",
+    "story": "323 F išsiskiria žemu penkiaduriu kėbulu ir paslėptų priekinių žibintų forma. Šis šviesiai žalias „WhiteBox“ variantas yra atskiras kolekcijos modelis. Modeliuko pagaminimo ir išleidimo metų nepatvirtiname.",
+    "catalog": {
+      "url": "https://www.miniatures-minichamps.com/117488-large_default/mazda-323-f-1989-light-green-whitebox-wb124259.jpg",
+      "sourceUrl": "https://www.miniatures-minichamps.com/gb/other-scale/915153660-mazda-323-f-1989-light-green-whitebox-wb124259.html",
+      "sourceName": "Miniatures Minichamps"
+    },
+    "specificationSources": [
+      {
+        "name": "Model Car World – WB124259-O",
+        "url": "https://www.modelcarworld.com/en/prod/1002539/mazda-323-f-hellgruen-1989-1-24-whitebox"
+      }
+    ],
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/323f-whitebox-silver-green.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "packaged": true,
+    "scaleApproximate": false
   }
 ];
