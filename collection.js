@@ -195,7 +195,7 @@ window.collection = [
     "story": "FD – trečioji Mazda RX-7 karta. Šį kolekcijos variantą išskiria oranžinė spalva ir „Orange Julius“ dekoracija. Modeliuko leidimo metų, fizinio gamintojo ar mastelio nepriskiriame pagal panašius kitų pardavėjų įrašus.",
     "photos": [
       {
-        "url": "photos/2026-11-10/rx7-fast-furious-base.jpg",
+        "url": "photos/2026-11-10/rx7-fast-furious-base-upright.png",
         "label": "Mano kolekcijos nuotrauka – dėklo pagrindo apačia"
       },
       {
@@ -303,5 +303,177 @@ window.collection = [
       }
     ],
     "added": "2026-11-10"
+  },
+  {
+    "id": "mx30-matchbox-70years-orange",
+    "name": "2021 Mazda MX-30 · 70 Years",
+    "model": "MX-30",
+    "maker": "Matchbox",
+    "series": "70 Years Special Edition · 4/5 · HMV12",
+    "color": "Oranžinė",
+    "description": "Oranžinis Mazda MX-30 su tamsia stogo ir apatinės kėbulo dalies apdaila, tamsiais ratlankiais su oranžiniais apvadais bei „Matchbox 70 years“ ženklu ant durų. Originalioje „70 Years Special Edition“ pakuotėje, numeris 4/5; kortelėje matomas asortimento kodas HMV12.",
+    "story": "MX-30 išsiskiria kompaktiško krosoverio kėbulu. Šį variantą identifikuoja oranžinė spalva, jubiliejinis ženklas ir serijos numeris 4/5. Vaizduojamo automobilio 2021 metai nėra modeliuko pagaminimo metai.",
+    "catalog": {
+      "url": "https://99diecast.com/cdn/shop/files/MB-HMV16_front.jpg?v=1780513281",
+      "sourceUrl": "https://99diecast.com/products/matchbox-2021-mazda-mx-30-moving-parts-2023-4-5",
+      "sourceName": "99Diecast"
+    },
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/mx30-matchbox-70years-orange.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "rx3-hotwheels-tooned-blue-123",
+    "name": "Mazda RX-3 · Tooned",
+    "model": "RX-3",
+    "maker": "Hot Wheels",
+    "series": "Tooned · 1/5 · 142/250",
+    "color": "Mėlyna",
+    "description": "Mėlynas, stilizuotų „Tooned“ proporcijų Mazda RX-3 su raudona važiuokle, ryškiai išsikišusiu varikliu, „Toyo Tires“ ir „Mad Mike“ grafika bei numeriu 123. Priekinis ratlankis aukso, galinis – sidabro spalvos. Originalioje pakuotėje, „Tooned“ 1/5 ir 142/250.",
+    "story": "Šis RX-3 vaizduojamas karikatūrinėmis „Tooned“ proporcijomis. Tai atskiras RX-3 variantas, atpažįstamas pagal mėlyną spalvą, numerį 123 ir dekoraciją. Tikslus mastelis ir modeliuko leidimo metai iš šios pakuotės priekio nepatvirtinti.",
+    "catalog": {
+      "url": "https://collectorsworldtoys.com/cdn/shop/files/hot-wheels-mazda-rx-3-jjj95-1-front.jpg?v=1794285379",
+      "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-mazda-rx-3-tooned-series-1-5",
+      "sourceName": "Collectors World Toys"
+    },
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx3-hotwheels-tooned-blue-123.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "mazda3-matchbox-2019-black-14",
+    "name": "2019 Mazda 3",
+    "model": "Mazda 3",
+    "maker": "Matchbox",
+    "series": "Matchbox · 14/125 · C0859",
+    "color": "Juoda",
+    "description": "Juodas „Matchbox“ 2019 Mazda 3 hečbekas su tamsiais langais ir ratlankiais. Originalioje pakuotėje aiškiai nurodyta „2019 Mazda 3“, numeris 14/125 ir asortimento kodas C0859.",
+    "story": "Mazda 3 miniatiūra atkartoja penkiadurių hečbeko kėbulą. Pavadinimo 2019 metai nurodo vaizduojamą automobilį; modeliuko pagaminimo ar leidimo metų pagal juos nepriskiriame.",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/mazda3-matchbox-2019-black-14.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "rx7-hotwheels-drift-red-95",
+    "name": "1995 Mazda RX-7 Drift",
+    "model": "RX-7",
+    "maker": "Hot Wheels",
+    "series": "’70s vs. ’90s · 9/10 · 163/250",
+    "color": "Raudona",
+    "description": "Raudonas „Hot Wheels“ ’95 Mazda RX-7 Drift su juoda ir geltona grafika, šoniniu numeriu 95, dideliu galiniu spoileriu ir baltais ratlankiais. Originalioje pakuotėje: „’70s vs. ’90s“ 9/10, bendras katalogo numeris 163/250.",
+    "story": "Driftui stilizuota RX-7 FD interpretacija. Šį variantą nuo kitų RX-7 kolekcijoje skiria spalva, numeris 95, grafika ir serija. Kortelės ’95 nurodo automobilio modelio metus, ne modeliuko leidimo metus.",
+    "catalog": {
+      "url": "https://collectorsworldtoys.com/cdn/shop/files/hot-wheels-95-mazda-rx-7-drift-orange-163-250-2025-1-front.jpg?v=1793480677",
+      "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-95-mazda-rx-7-drift-70s-vs-90s-series-9-10",
+      "sourceName": "Collectors World Toys"
+    },
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-hotwheels-drift-red-95.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "mx5-hotwheels-dreamgarage-white-5",
+    "name": "Mazda MX-5 Miata · HW Dream Garage",
+    "model": "MX-5",
+    "maker": "Hot Wheels",
+    "series": "HW Dream Garage · 1/5 · 1/250",
+    "color": "Balta",
+    "description": "Balta „Hot Wheels“ Mazda MX-5 Miata su juodomis praplatintomis arkomis ir stogu, juoda bei raudona grafika ir dideliu numeriu 5. Originalioje pakuotėje: „HW Dream Garage“ 1/5 ir 1/250.",
+    "story": "Sportiškai modifikuota MX-5 Miata interpretacija su papildomais priekiniais žibintais ir praplatintu kėbulu. Baltas ir mėlynas šios serijos modeliukai kataloge saugomi kaip atskiri spalviniai bei dekoracijos variantai.",
+    "catalog": {
+      "url": "https://collectorsworldtoys.com/cdn/shop/files/hot-wheels-mazda-mx-5-miata-jjj02-1-front.jpg?v=1794285376",
+      "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-15-mazda-mx-5-miata-dream-garage-series-1-5",
+      "sourceName": "Collectors World Toys"
+    },
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/mx5-hotwheels-dreamgarage-white-5.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "mx5-hotwheels-dreamgarage-blue-5",
+    "name": "Mazda MX-5 Miata · HW Dream Garage",
+    "model": "MX-5",
+    "maker": "Hot Wheels",
+    "series": "HW Dream Garage · 1/5 · 1/250",
+    "color": "Mėlyna",
+    "description": "Mėlyna „Hot Wheels“ Mazda MX-5 Miata su juodomis praplatintomis arkomis ir stogu, juoda bei geltona grafika, numeriu 5 ir sidabro spalvos ratlankiais. Originalioje pakuotėje: „HW Dream Garage“ 1/5 ir 1/250.",
+    "story": "Sportiškai modifikuota MX-5 Miata interpretacija su papildomais priekiniais žibintais ir praplatintu kėbulu. Nuo balto šios serijos varianto skiriasi spalva, grafika ir ratlankiais, todėl tai atskiras kolekcijos įrašas.",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/mx5-hotwheels-dreamgarage-blue-5.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "rx7-hotwheels-raceoff-white-hks",
+    "name": "1995 Mazda RX-7 · Fast & Furious Race-Off",
+    "model": "RX-7",
+    "maker": "Hot Wheels",
+    "series": "Silver Series · Fast & Furious Race-Off · 2/5 · HNR88",
+    "color": "Balta",
+    "description": "Balta „Hot Wheels“ 1995 Mazda RX-7 su dideliais „HKS“ užrašais, smulkia šonų grafika, galiniu spoileriu ir sidabro spalvos ratlankiais. Originalioje „Silver Series · Fast & Furious Race-Off“ pakuotėje: 2/5, kodas HNR88 ir filmų serijos 25 metų ženklas.",
+    "story": "RX-7 FD variantas su balta „HKS“ dekoracija. Jis skiriasi nuo oranžinio „Fast & Furious“ RX-7 spalva, dekoracija, gamintojo ženklu ant pakuotės ir serija. Pavadinimo 1995 metai nurodo automobilį, o 25 metų ženklas nėra modeliuko pagaminimo data.",
+    "catalog": {
+      "url": "https://agrmodels.uk/cdn/shop/files/hw-ff-race-off-mazda-rx7-white.jpg?v=1784538326",
+      "sourceUrl": "https://agrmodels.uk/products/hot-wheels-fast-furious-race-off-2-5-1995-mazda-rx-7",
+      "sourceName": "AGR Models"
+    },
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": true,
+    "added": "2026-11-10",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-hotwheels-raceoff-white-hks.png",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
   }
 ];
