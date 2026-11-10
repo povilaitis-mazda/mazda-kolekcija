@@ -526,9 +526,11 @@ window.collection = [
     "description": "Šviesiai mėlynas ir juodas Mazda RX-8 su dideliu galiniu spoileriu, modifikuotu kėbulu bei sidabro spalvos ratlankiais. Ant ekspozicinio pagrindo nurodyta „Mazda RX-8“ ir „Fast & Furious“. Saugomas skaidriame dėkle. Fizinis gamintojas ir mastelis nepatvirtinti.",
     "story": "Mėlynos ir juodos spalvų „Fast & Furious“ RX-8 variantas. Nuo sidabrinių „Matchbox“ RX-8 jį skiria dekoracija, kėbulo apdaila ir ekspozicinis dėklas. RX-8 šeima siejama su rotoriniu varikliu; šio modeliuko išleidimo metų nepriskiriame.",
     "catalog": {
-      "url": "https://obsessedwithcars.co.uk/cdn/shop/files/20250607_1407381.jpg?v=1749311005",
+      "url": "photos/2026-11-10/rx8-fast-furious-catalog-edited.png",
       "sourceUrl": "https://obsessedwithcars.co.uk/products/1-43-2004-mazda-rx-8-fast-furious",
-      "sourceName": "Obsessed With Cars"
+      "sourceName": "Obsessed With Cars (redaguota kopija)",
+      "originalUrl": "https://obsessedwithcars.co.uk/cdn/shop/files/20250607_1407381.jpg?v=1749311005",
+      "editingNote": "Vandens ženklas pašalintas vaizdo redagavimo įrankiu iš naudotojo pateiktos ekrano kopijos."
     },
     "added": "2026-11-10",
     "photos": [
@@ -747,9 +749,11 @@ window.collection = [
     "packaged": true,
     "scaleApproximate": false,
     "catalog": {
-      "url": "https://automodele.eu/environment/cache/images/productGfx_758160_0_0/WB124259-Mazda-323-F-1989-Light-Green-Metallic-WhiteBox-124.jpg",
+      "url": "photos/2026-11-10/323f-whitebox-catalog-edited.png",
       "sourceUrl": "https://www.modelcarplanet.com/products/whitebox-mazda-323-f-1989-1-24-light-green-metallic-diecast-model",
-      "sourceName": "Model Car Planet / Automodele"
+      "sourceName": "Model Car Planet / Automodele (redaguota kopija)",
+      "originalUrl": "https://automodele.eu/environment/cache/images/productGfx_758160_0_0/WB124259-Mazda-323-F-1989-Light-Green-Metallic-WhiteBox-124.jpg",
+      "editingNote": "Vandens ženklas pašalintas vaizdo redagavimo įrankiu iš naudotojo pateiktos ekrano kopijos."
     }
   }
 ];
