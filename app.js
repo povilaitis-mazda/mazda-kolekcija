@@ -21,9 +21,21 @@ const photo = (item, large = false, index = primaryPhotoIndex(item)) => {
   return `<div class="model-photo ${large ? 'large-photo' : ''}"><img src="${esc(encodeURI(entry.url))}" ${fallback ? `data-fallback="${esc(encodeURI(fallback))}"` : ''} alt="${esc(item.name)} – ${esc(entry.label)}" loading="${large ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></div>`;
 };
 let activeItem;
+let activePhotoIndex = 0;
+let swipeStart;
 const gallery = (item, index = primaryPhotoIndex(item)) => {
   const entries = photosFor(item), entry = entries[index];
-  return `${photo(item,true,index)}<div class="gallery-caption" role="status">${esc(entry.label)}${entry.sourceUrl ? ` · <a href="${esc(entry.sourceUrl)}" target="_blank" rel="noopener noreferrer">Šaltinis: ${esc(entry.sourceName)} ↗</a>` : ''}</div><div class="gallery-tabs" role="group" aria-label="Nuotraukų pasirinkimas">${entries.map((entry,i)=>`<button type="button" data-photo-index="${i}" aria-pressed="${i===index}">${i+1}. ${esc(entry.label)}</button>`).join('')}</div>`;
+  if (!entry) return placeholder(item,true);
+  const navigation = entries.length > 1 ? `<button type="button" class="gallery-nav gallery-prev" data-photo-step="-1" aria-label="Ankstesnė nuotrauka"><span aria-hidden="true">‹</span></button><button type="button" class="gallery-nav gallery-next" data-photo-step="1" aria-label="Kita nuotrauka"><span aria-hidden="true">›</span></button><span class="gallery-counter" aria-hidden="true">${index+1} / ${entries.length}</span>` : '';
+  return `<div class="gallery-stage">${photo(item,true,index)}${navigation}</div><div class="gallery-caption" role="status"><span class="sr-only">Nuotrauka ${index+1} iš ${entries.length}. </span>${esc(entry.label)}${entry.sourceUrl ? ` · <a href="${esc(entry.sourceUrl)}" target="_blank" rel="noopener noreferrer">Šaltinis: ${esc(entry.sourceName)} ↗</a>` : ''}</div><div class="gallery-tabs" role="group" aria-label="Nuotraukų pasirinkimas">${entries.map((entry,i)=>`<button type="button" data-photo-index="${i}" aria-pressed="${i===index}">${i+1}. ${esc(entry.label)}</button>`).join('')}</div>`;
+};
+const selectPhoto = (index, focusSelector) => {
+  if (!activeItem || !$('detail').open) return;
+  const count = photosFor(activeItem).length;
+  if (!count) return;
+  activePhotoIndex = ((index % count) + count) % count;
+  $('detail-gallery').innerHTML = gallery(activeItem,activePhotoIndex);
+  if (focusSelector) $('detail-gallery').querySelector(focusSelector)?.focus({preventScroll:true});
 };
 document.addEventListener('error',event => {
   const image = event.target;
@@ -35,12 +47,41 @@ document.addEventListener('error',event => {
   if (caption) caption.textContent = 'Kataloginė nuotrauka nepasiekiama. Rodoma mano kolekcijos nuotrauka.';
 },true);
 $('detail-body').addEventListener('click',event => {
-  const button = event.target.closest('[data-photo-index]');
+  const button = event.target.closest('[data-photo-index], [data-photo-step]');
   if (!button || !activeItem) return;
-  const index = Number(button.dataset.photoIndex);
-  $('detail-gallery').innerHTML = gallery(activeItem,index);
-  $('detail-gallery').querySelector(`[data-photo-index="${index}"]`).focus({preventScroll:true});
+  if (button.dataset.photoStep) {
+    selectPhoto(activePhotoIndex + Number(button.dataset.photoStep),`[data-photo-step="${button.dataset.photoStep}"]`);
+  } else {
+    selectPhoto(Number(button.dataset.photoIndex),`[data-photo-index="${button.dataset.photoIndex}"]`);
+  }
 });
+document.addEventListener('keydown',event => {
+  if (!$('detail').open || !activeItem || photosFor(activeItem).length < 2 ||
+      event.altKey || event.ctrlKey || event.metaKey ||
+      event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
+  const direction = event.key === 'ArrowLeft' ? -1 : event.key === 'ArrowRight' ? 1 : 0;
+  if (!direction) return;
+  event.preventDefault();
+  const focused = document.activeElement;
+  const focusSelector = focused?.hasAttribute('data-photo-step') ? `[data-photo-step="${focused.dataset.photoStep}"]` :
+    focused?.hasAttribute('data-photo-index') ? `[data-photo-index="${focused.dataset.photoIndex}"]` : undefined;
+  selectPhoto(activePhotoIndex + direction,focusSelector);
+});
+$('detail-body').addEventListener('pointerdown',event => {
+  if (event.pointerType !== 'touch' && event.pointerType !== 'pen') return;
+  if (!event.isPrimary) { swipeStart = undefined; return; }
+  if (!event.target.closest('.gallery-stage') || event.target.closest('button, a')) return;
+  swipeStart = {id:event.pointerId,x:event.clientX,y:event.clientY};
+});
+$('detail-body').addEventListener('pointerup',event => {
+  const start = swipeStart;
+  swipeStart = undefined;
+  if (!start || start.id !== event.pointerId || !activeItem || photosFor(activeItem).length < 2) return;
+  const dx = event.clientX - start.x, dy = event.clientY - start.y;
+  if (Math.abs(dx) >= 45 && Math.abs(dx) > Math.abs(dy) * 1.5) selectPhoto(activePhotoIndex + (dx < 0 ? 1 : -1));
+});
+$('detail-body').addEventListener('pointercancel',() => { swipeStart = undefined; });
+$('detail').addEventListener('close',() => { activeItem = undefined; swipeStart = undefined; });
 for (const key of ['maker','model','scale']) {
   for (const value of [...new Set(items.map(item => item[key]))].sort()) {
     const option = document.createElement('option'); option.value = value;
@@ -66,7 +107,9 @@ $('cards').addEventListener('click', event => {
   const button = event.target.closest('[data-id]'); if (!button) return;
   const item = items.find(item => item.id === button.dataset.id);
   activeItem = item;
-  $('detail-body').innerHTML = `<div id="detail-gallery">${gallery(item)}</div><div class="detail-content"><p class="eyebrow">${esc(brandLabel(item))} / ${esc(item.series)}</p><h2 id="detail-title">${esc(item.name)}</h2><p>${esc(item.description)}</p><dl><div><dt>Mastelis</dt><dd>${esc(scaleLabel(item))}</dd></div><div><dt>Spalva</dt><dd>${esc(item.color)}</dd></div><div><dt>Būklė</dt><dd>${esc(condition(item))}</dd></div><div><dt>Pridėta</dt><dd>${esc(item.added)}</dd></div></dl><p class="small">${approximateScale(item) ? '* ' : ''}${esc(item.scaleNote)}</p><h3>Modelio istorija</h3><p>${esc(item.story)}</p></div>`;
+  activePhotoIndex = primaryPhotoIndex(item);
+  swipeStart = undefined;
+  $('detail-body').innerHTML = `<div id="detail-gallery">${gallery(item,activePhotoIndex)}</div><div class="detail-content"><p class="eyebrow">${esc(brandLabel(item))} / ${esc(item.series)}</p><h2 id="detail-title">${esc(item.name)}</h2><p>${esc(item.description)}</p><dl><div><dt>Mastelis</dt><dd>${esc(scaleLabel(item))}</dd></div><div><dt>Spalva</dt><dd>${esc(item.color)}</dd></div><div><dt>Būklė</dt><dd>${esc(condition(item))}</dd></div><div><dt>Pridėta</dt><dd>${esc(item.added)}</dd></div></dl><p class="small">${approximateScale(item) ? '* ' : ''}${esc(item.scaleNote)}</p><h3>Modelio istorija</h3><p>${esc(item.story)}</p></div>`;
   $('detail').showModal();
 });
 document.querySelector('.close').addEventListener('click',() => $('detail').close());

@@ -683,11 +683,6 @@ window.collection = [
     "added": "2026-11-10",
     "description": "Papildomas „Matchbox“ 2004 Mazda RX-8 vienetas, numeris 19/125. Naudotojas patvirtino, kad tai atskiras turimas vienetas, ne anksčiau užregistruotas egzempliorius lizdinėje pakuotėje. Šis saugomas kartoninėje dėžutėje; pateiktoje fotografijoje matoma pakuotė.",
     "story": "RX-8 išsiskiria rotorinio variklio koncepcija ir atgal atveriamomis galinėmis durimis. Šis modeliukas atkartoja 2004 metų automobilį. Automobilio modelio metai nereiškia modeliuko pagaminimo metų.",
-    "catalog": {
-      "url": "https://collectorsworldtoys.com/cdn/shop/files/Matchbox-2004-Mazda-RX-8_2.webp?v=1767408575&width=1200",
-      "sourceUrl": "https://collectorsworldtoys.com/products/2026-matchbox-series-19-125-2004-mazda-rx-8",
-      "sourceName": "Collectors World Toys"
-    },
     "photos": [
       {
         "url": "photos/2026-11-10/rx8-matchbox-boxed-unit.jpg",
@@ -719,11 +714,6 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "catalog": {
-      "url": "https://www.rarewaves.com/cdn/shop/files/orig_15095491_28973536_20260529090456_c49b92ad-dcee-4fa2-9020-f92e197e98de.jpg?v=1780095306&width=416",
-      "sourceUrl": "https://www.rarewaves.com/products/0194735354726-cars-colour-change-hj-hollis-toys",
-      "sourceName": "Rarewaves"
-    },
     "variantOf": "mazda3-matchbox-2019-black-14",
     "condition": "Kartoninėje „Matchbox“ dėžutėje",
     "conditionTag": "Dėžutėje"
@@ -741,11 +731,6 @@ window.collection = [
     "conditionTag": "Su dėže",
     "description": "Sidabriškai žalias metalizuotos spalvos „WhiteBox“ Mazda 323 F su juodomis šoninėmis juostomis, juodu salonu ir sidabro spalvos ratlankiais. Saugomas „WhiteBox“ dėžėje su langu; prie pagrindo nurodyta „MAZDA 323 F“. Šio varianto katalogo numeris WB124259, mastelis 1:24.",
     "story": "323 F išsiskiria žemu penkiaduriu kėbulu ir paslėptų priekinių žibintų forma. Šis šviesiai žalias „WhiteBox“ variantas yra atskiras kolekcijos modelis. Modeliuko pagaminimo ir išleidimo metų nepatvirtiname.",
-    "catalog": {
-      "url": "https://www.miniatures-minichamps.com/117488-large_default/mazda-323-f-1989-light-green-whitebox-wb124259.jpg",
-      "sourceUrl": "https://www.miniatures-minichamps.com/gb/other-scale/915153660-mazda-323-f-1989-light-green-whitebox-wb124259.html",
-      "sourceName": "Miniatures Minichamps"
-    },
     "specificationSources": [
       {
         "name": "Model Car World – WB124259-O",
@@ -760,6 +745,11 @@ window.collection = [
       }
     ],
     "packaged": true,
-    "scaleApproximate": false
+    "scaleApproximate": false,
+    "catalog": {
+      "url": "https://automodele.eu/environment/cache/images/productGfx_758160_0_0/WB124259-Mazda-323-F-1989-Light-Green-Metallic-WhiteBox-124.jpg",
+      "sourceUrl": "https://www.modelcarplanet.com/products/whitebox-mazda-323-f-1989-1-24-light-green-metallic-diecast-model",
+      "sourceName": "Model Car Planet / Automodele"
+    }
   }
 ];

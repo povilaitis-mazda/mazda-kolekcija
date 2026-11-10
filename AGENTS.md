@@ -27,8 +27,10 @@
 ## Kataloginiai vaizdai ir galerijos
 
 - Ieškok tikslų variantą atitinkančios kataloginės nuotraukos. Išsaugok šaltinio pavadinimą ir tikrą produkto nuorodą; ją rodyk galerijoje. Nežadėk išorinio šaltinio prieinamumo ar naudojimo teisių.
+- Kataloginė nuotrauka turi atitikti ir įrašo pakuotės formatą: dėžutėje esančiam egzemplioriui nedėk lizdinės pakuotės vaizdo. Jei tinkamo vaizdo nėra arba šaltinis rodo klaustuką / pakaitinį paveikslėlį, rodyk naudotojo fotografiją. Vien HTTP 200 nepatvirtina nuotraukos tinkamumo.
 - Kortelėje ir galerijoje kataloginė fotografija turi būti pirmoji. Naudotojo pagrindinė modeliuko fotografija turi būti paskutinė; tarp jų galima pateikti aiškiai pavadintas naudotojo dugno ar pakuotės nuotraukas. Išsaugok aiškius nuotraukų perjungimo mygtukus.
 - Jei kataloginis vaizdas nepasiekiamas, naudok to įrašo pagrindinę naudotojo fotografiją kaip atsarginę.
+- Išsaugok galerijos šonines rodykles, ← / → klavišus ir horizontalų braukimą telefone. Vertikalus slinkimas bei mastelio keitimas turi likti galimi; vienos nuotraukos galerijai rodyklių nereikia.
 
 ## Patikra ir publikavimas
 
