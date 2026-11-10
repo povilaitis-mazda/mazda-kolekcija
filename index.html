@@ -4,14 +4,12 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mazda kolekcija · Povilaitis</title>
 <meta name="description" content="Asmeninė Mazda modeliukų kolekcija. Hot Wheels, Matchbox ir mažos didelių automobilių istorijos.">
-<meta name="theme-color" content="#f7f5ef">
+<meta name="theme-color" content="#090d0a">
 <script>
 (() => {
   const key = 'mazda-collection-theme';
   const root = document.documentElement;
   let manual = null;
-  let system = null;
-  try { system = window.matchMedia('(prefers-color-scheme: dark)'); } catch (_) {}
   try {
     const saved = window.localStorage.getItem(key);
     if (saved === 'light' || saved === 'dark') manual = saved;
@@ -25,7 +23,6 @@
     document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#090d0a' : '#f7f5ef';
     syncControls();
   };
-  const followSystem = () => { if (!manual) apply(system && system.matches ? 'dark' : 'light'); };
   const select = theme => {
     if (theme !== 'light' && theme !== 'dark') return;
     manual = theme;
@@ -33,9 +30,7 @@
     try { window.localStorage.setItem(key, theme); } catch (_) {}
   };
   window.mazdaTheme = {syncControls};
-  apply(manual || (system && system.matches ? 'dark' : 'light'));
-  if (system && system.addEventListener) system.addEventListener('change', followSystem);
-  else if (system && system.addListener) system.addListener(followSystem);
+  apply(manual || 'dark');
   document.addEventListener('click', event => {
     const button = event.target.closest('[data-theme-choice]');
     if (button) select(button.dataset.themeChoice);
