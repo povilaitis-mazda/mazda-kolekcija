@@ -177,5 +177,131 @@ window.collection = [
       "1794254062871501.jpg"
     ],
     "added": "2026-11-10"
+  },
+  {
+    "id": "rx7-fd-fast-furious-orange",
+    "name": "Mazda RX-7 FD · Fast & Furious",
+    "model": "RX-7",
+    "maker": "Nepatvirtintas",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Šio egzemplioriaus mastelis nuotraukose nepatvirtintas. Įspėjimas „14 years“ reiškia amžiaus ribą, ne mastelį.",
+    "series": "Fast & Furious · Orange Julius dekoracija",
+    "color": "Oranžinė",
+    "packaged": true,
+    "condition": "Ant ekspozicinio pagrindo, skaidriame dėkle",
+    "conditionTag": "Dėkle",
+    "description": "Oranžinis Mazda RX-7 FD su geltona ir raudona grafika, „ORANGE JULIUS“ užrašais ir sidabro spalvos ratlankiais. Ant ekspozicinio pagrindo nurodyta „Mazda RX-7 FD“ ir „Fast & Furious“. Saugomas skaidriame dėkle. Gamintojas ir mastelis nepatvirtinti.",
+    "story": "FD – trečioji Mazda RX-7 karta. Šį kolekcijos variantą išskiria oranžinė spalva ir „Orange Julius“ dekoracija. Modeliuko leidimo metų, fizinio gamintojo ar mastelio nepriskiriame pagal panašius kitų pardavėjų įrašus.",
+    "photos": [
+      {
+        "url": "photos/2026-11-10/rx7-fast-furious-base.jpg",
+        "label": "Mano kolekcijos nuotrauka – dėklo pagrindo apačia"
+      },
+      {
+        "url": "photos/2026-11-10/rx7-fast-furious-base-detail.jpg",
+        "label": "Mano kolekcijos nuotrauka – pagrindo užrašai"
+      },
+      {
+        "url": "photos/2026-11-10/rx7-fast-furious-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "cx5-red-118",
+    "name": "Mazda CX-5",
+    "model": "CX-5",
+    "maker": "Nepatvirtintas",
+    "sellerBrand": "WELLY",
+    "scale": "1:18",
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 nurodytas ant šio modeliuko dėžės ir pardavėjo specifikacijoje.",
+    "series": "Mazda CX-5 · 1:18",
+    "color": "Raudona",
+    "packaged": true,
+    "condition": "Su dėže ir apsauginiu putplasčio įdėklu",
+    "conditionTag": "Su dėže",
+    "description": "Raudonas metalizuotos spalvos Mazda CX-5, mastelis 1:18, su juodu salonu, stogo bėgeliais ir stoglangiu. Kolekcijoje saugoma dėžė su apsauginiu putplasčio įdėklu. Pirkta per „AliExpress“; pardavėjo specifikacijoje prekės ženklas nurodytas „WELLY“, tačiau ant šio egzemplioriaus gamintojo žymėjimas nepatvirtintas.",
+    "story": "CX-5 – Mazda visureigio miniatiūra. Skelbimo nuotraukose parodytos atveriamos durys, variklio dangtis ir bagažinė. Mastelis patvirtintas paties egzemplioriaus dėžės užrašu; automobilio ir modeliuko leidimo metų nepriskiriame.",
+    "catalog": {
+      "url": "photos/2026-11-10/cx5-catalog-01.png",
+      "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+      "sourceName": "AliExpress – naudotojo pateiktas skelbimas"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-10/cx5-catalog-02.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 2"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-03.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 3"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-04.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 4"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-05.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 5"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-06.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 6"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-07.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 7"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-08.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 8"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-09.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 9"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-catalog-10.png",
+        "sourceUrl": "https://a.aliexpress.com/_Ezp2A8A",
+        "sourceName": "AliExpress – naudotojo pateiktas skelbimas",
+        "label": "Kataloginė nuotrauka – 10"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-box-front.jpg",
+        "label": "Mano kolekcijos nuotrauka – dėžės priekis"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-box-back.jpg",
+        "label": "Mano kolekcijos nuotrauka – dėžės galas ir mastelis"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-underbody.jpg",
+        "label": "Mano kolekcijos nuotrauka – dugnas"
+      },
+      {
+        "url": "photos/2026-11-10/cx5-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-10"
   }
 ];
