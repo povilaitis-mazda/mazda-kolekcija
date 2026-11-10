@@ -13,14 +13,15 @@ const photosFor = item => [
   ...(item.catalog ? [{...item.catalog, label: 'Kataloginė nuotrauka'}] : []),
   ...ownerPhotos(item)
 ];
-const photo = (item, large = false, index = 0) => {
+const primaryPhotoIndex = item => item.catalog ? 0 : Math.max(0, photosFor(item).length - 1);
+const photo = (item, large = false, index = primaryPhotoIndex(item)) => {
   const entry = photosFor(item)[index];
   if (!entry) return placeholder(item, large);
   const fallback = entry.sourceUrl ? (ownerPhotos(item).at(-1)?.url || '') : '';
   return `<div class="model-photo ${large ? 'large-photo' : ''}"><img src="${esc(encodeURI(entry.url))}" ${fallback ? `data-fallback="${esc(encodeURI(fallback))}"` : ''} alt="${esc(item.name)} – ${esc(entry.label)}" loading="${large ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></div>`;
 };
 let activeItem;
-const gallery = (item, index = 0) => {
+const gallery = (item, index = primaryPhotoIndex(item)) => {
   const entries = photosFor(item), entry = entries[index];
   return `${photo(item,true,index)}<div class="gallery-caption" role="status">${esc(entry.label)}${entry.sourceUrl ? ` · <a href="${esc(entry.sourceUrl)}" target="_blank" rel="noopener noreferrer">Šaltinis: ${esc(entry.sourceName)} ↗</a>` : ''}</div><div class="gallery-tabs" role="group" aria-label="Nuotraukų pasirinkimas">${entries.map((entry,i)=>`<button type="button" data-photo-index="${i}" aria-pressed="${i===index}">${i+1}. ${esc(entry.label)}</button>`).join('')}</div>`;
 };
