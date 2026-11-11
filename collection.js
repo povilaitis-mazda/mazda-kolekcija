@@ -763,8 +763,8 @@ window.collection = [
     "maker": "Nepatvirtintas",
     "series": "Kaladėlių modelis · VeilSide stiliaus",
     "color": "Oranžinė ir juoda",
-    "description": "Iš kaladėlių surinktas oranžinis ir juodas Mazda RX-7 su „VeilSide“ stiliaus apdaila: plačiu kėbulu, juodu variklio dangčiu ir stogu, dideliu galiniu spoileriu bei sidabro spalvos ratlankiais. Pirktas per „AliExpress“. Kaladėlių gamintojas ir mastelis nepatvirtinti.",
-    "story": "Oranžinės ir juodos spalvų derinys bei kėbulo forma perteikia modifikuoto RX-7 įvaizdį. Tai atskiras iš kaladėlių surinktas kolekcijos modelis. Rinkinio kodo, detalių skaičiaus ir leidimo metų pagal vien išvaizdą nepriskiriame.",
+    "description": "Iš kaladėlių surinktas oranžinis ir juodas Mazda RX-7 su „VeilSide“ stiliaus apdaila: plačiu kėbulu, juodu variklio dangčiu ir stogu, dideliu galiniu spoileriu bei sidabro spalvos ratlankiais. Pirktas per „AliExpress“. Pardavėjo nuotraukoje nurodyta „Reobrix No.804“; fizinis kaladėlių gamintojas ir mastelis ant paties egzemplioriaus nepatvirtinti.",
+    "story": "Oranžinės ir juodos spalvų derinys bei kėbulo forma perteikia modifikuoto RX-7 įvaizdį. Tai atskiras iš kaladėlių surinktas kolekcijos modelis. Pardavėjo medžiagoje pateikiami skirtingi detalių skaičiai, todėl šio egzemplioriaus detalių skaičiaus ir leidimo metų netvirtiname.",
     "scale": "Nepatvirtintas",
     "scaleApproximate": false,
     "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
@@ -774,32 +774,86 @@ window.collection = [
     "added": "2026-11-11",
     "photos": [
       {
+        "url": "photos/2026-11-11/rx7-veilside-bricks-orange-catalog-02.png",
+        "label": "Kataloginė nuotrauka – 2",
+        "sourceUrl": "https://www.aliexpress.com/item/1005007023215594.html",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
+        "url": "photos/2026-11-11/rx7-veilside-bricks-orange-catalog-03.png",
+        "label": "Kataloginė nuotrauka – 3",
+        "sourceUrl": "https://www.aliexpress.com/item/1005007023215594.html",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
         "url": "photos/2026-11-11/rx7-veilside-bricks-orange.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-11/rx7-veilside-bricks-orange-catalog-01.png",
+      "sourceUrl": "https://www.aliexpress.com/item/1005007023215594.html",
+      "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+    },
+    "sellerBrand": "Reobrix",
+    "sellerModelNumber": "804"
   },
   {
     "id": "787b-bricks-white-blue-18",
     "name": "Mazda 787B Nr. 18 · kaladėlių modelis",
     "model": "787B",
     "maker": "CaDA",
-    "series": "Kaladėlių modelis · Nr. 18",
+    "series": "Kaladėlių modelis · Nr. 18 · C55029",
     "color": "Balta ir mėlyna",
-    "description": "Iš kaladėlių surinktas baltas ir mėlynas Mazda 787B lenktyninis prototipas su numeriu 18, „Mazda“ užrašais, dideliu galiniu sparnu ir geltonais apatinės kėbulo dalies akcentais. Ant priekinių kėbulo elementų matomas „CaDA“ ženklas. Pirktas per „AliExpress“; tikslus šio egzemplioriaus mastelis nepatvirtintas.",
-    "story": "Mazda 787B įvaizdis atkurtas kaladėlėmis, išlaikant žemą uždaro lenktyninio prototipo siluetą, baltą ir mėlyną dekoraciją bei numerį 18. Rinkinio kodo, detalių skaičiaus ar leidimo metų šiam egzemplioriui nepriskiriame.",
-    "scale": "Nepatvirtintas",
+    "description": "Iš kaladėlių surinktas baltas ir mėlynas Mazda 787B lenktyninis prototipas su numeriu 18, „Mazda“ užrašais, dideliu galiniu sparnu ir geltonais apatinės kėbulo dalies akcentais. Ant priekinių kėbulo elementų matomas „CaDA“ ženklas. Pirktas per „AliExpress“; pirkimo skelbime nurodytas kodas C55029, kataloginėje nuotraukoje – mastelis 1:24.",
+    "story": "Mazda 787B įvaizdis atkurtas kaladėlėmis, išlaikant žemą uždaro lenktyninio prototipo siluetą, baltą ir mėlyną dekoraciją bei numerį 18. Rinkinio kodas ir mastelis patikrinti pagal naudotojo pateiktą pirkimo skelbimo kopiją. Modeliuko leidimo metų nepriskiriame.",
+    "scale": "1:24",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Mastelis 1:24 nurodytas pirkimo skelbimo kataloginėje nuotraukoje; specifikacijoje patvirtintas rinkinio kodas C55029.",
     "packaged": false,
     "condition": "Surinktas kaladėlių modelis; fotografuotas be pakuotės",
     "conditionTag": "Surinktas iš kaladėlių",
     "added": "2026-11-11",
     "photos": [
       {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-02.png",
+        "label": "Kataloginė nuotrauka – 2",
+        "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-03.png",
+        "label": "Kataloginė nuotrauka – 3",
+        "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-04.png",
+        "label": "Kataloginė nuotrauka – 4",
+        "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-05.png",
+        "label": "Kataloginė nuotrauka – 5",
+        "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-06.png",
+        "label": "Kataloginė nuotrauka – 6",
+        "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+        "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+      },
+      {
         "url": "photos/2026-11-11/787b-bricks-white-blue-18.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-11/787b-bricks-white-blue-18-catalog-01.png",
+      "sourceUrl": "https://www.aliexpress.com/ssr/300000512/BundleDealsDutyCovered?productIds=1005008077341000%3A12000043565395999",
+      "sourceName": "AliExpress – naudotojo pirkimo skelbimas"
+    }
   }
 ];
