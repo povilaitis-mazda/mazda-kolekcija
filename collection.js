@@ -755,5 +755,51 @@ window.collection = [
       "originalUrl": "https://automodele.eu/environment/cache/images/productGfx_758160_0_0/WB124259-Mazda-323-F-1989-Light-Green-Metallic-WhiteBox-124.jpg",
       "editingNote": "Vandens ženklas pašalintas vaizdo redagavimo įrankiu iš naudotojo pateiktos ekrano kopijos."
     }
+  },
+  {
+    "id": "rx7-veilside-bricks-orange",
+    "name": "Mazda RX-7 · kaladėlių modelis",
+    "model": "RX-7",
+    "maker": "Nepatvirtintas",
+    "series": "Kaladėlių modelis · VeilSide stiliaus",
+    "color": "Oranžinė ir juoda",
+    "description": "Iš kaladėlių surinktas oranžinis ir juodas Mazda RX-7 su „VeilSide“ stiliaus apdaila: plačiu kėbulu, juodu variklio dangčiu ir stogu, dideliu galiniu spoileriu bei sidabro spalvos ratlankiais. Pirktas per „AliExpress“. Kaladėlių gamintojas ir mastelis nepatvirtinti.",
+    "story": "Oranžinės ir juodos spalvų derinys bei kėbulo forma perteikia modifikuoto RX-7 įvaizdį. Tai atskiras iš kaladėlių surinktas kolekcijos modelis. Rinkinio kodo, detalių skaičiaus ir leidimo metų pagal vien išvaizdą nepriskiriame.",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": false,
+    "condition": "Surinktas kaladėlių modelis; fotografuotas be pakuotės",
+    "conditionTag": "Surinktas iš kaladėlių",
+    "added": "2026-11-11",
+    "photos": [
+      {
+        "url": "photos/2026-11-11/rx7-veilside-bricks-orange.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
+  },
+  {
+    "id": "787b-bricks-white-blue-18",
+    "name": "Mazda 787B Nr. 18 · kaladėlių modelis",
+    "model": "787B",
+    "maker": "CaDA",
+    "series": "Kaladėlių modelis · Nr. 18",
+    "color": "Balta ir mėlyna",
+    "description": "Iš kaladėlių surinktas baltas ir mėlynas Mazda 787B lenktyninis prototipas su numeriu 18, „Mazda“ užrašais, dideliu galiniu sparnu ir geltonais apatinės kėbulo dalies akcentais. Ant priekinių kėbulo elementų matomas „CaDA“ ženklas. Pirktas per „AliExpress“; tikslus šio egzemplioriaus mastelis nepatvirtintas.",
+    "story": "Mazda 787B įvaizdis atkurtas kaladėlėmis, išlaikant žemą uždaro lenktyninio prototipo siluetą, baltą ir mėlyną dekoraciją bei numerį 18. Rinkinio kodo, detalių skaičiaus ar leidimo metų šiam egzemplioriui nepriskiriame.",
+    "scale": "Nepatvirtintas",
+    "scaleApproximate": false,
+    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "packaged": false,
+    "condition": "Surinktas kaladėlių modelis; fotografuotas be pakuotės",
+    "conditionTag": "Surinktas iš kaladėlių",
+    "added": "2026-11-11",
+    "photos": [
+      {
+        "url": "photos/2026-11-11/787b-bricks-white-blue-18.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ]
   }
 ];
