@@ -174,7 +174,11 @@ window.collection = [
       "sourceName": "99Diecast"
     },
     "photos": [
-      "1794254062871501.jpg"
+      "1794254062871501.jpg",
+      {
+        "url": "photos/2026-11-14/rx7-hotwheels-neonspeeders-pink-additional.png",
+        "label": "Mano kolekcijos nuotrauka – papildoma"
+      }
     ],
     "added": "2026-11-10"
   },
@@ -405,6 +409,10 @@ window.collection = [
       {
         "url": "photos/2026-11-10/rx7-hotwheels-drift-red-95.png",
         "label": "Mano kolekcijos nuotrauka"
+      },
+      {
+        "url": "photos/2026-11-14/rx7-hotwheels-drift-red-95-additional.png",
+        "label": "Mano kolekcijos nuotrauka – papildoma"
       }
     ]
   },
@@ -431,6 +439,10 @@ window.collection = [
       {
         "url": "photos/2026-11-10/mx5-hotwheels-dreamgarage-white-5.png",
         "label": "Mano kolekcijos nuotrauka"
+      },
+      {
+        "url": "photos/2026-11-14/mx5-hotwheels-dreamgarage-white-5-additional.png",
+        "label": "Mano kolekcijos nuotrauka – papildoma"
       }
     ]
   },
@@ -507,6 +519,10 @@ window.collection = [
       {
         "url": "photos/2026-11-10/autozam-hotwheels-dreamgarage-red-8.jpg",
         "label": "Mano kolekcijos nuotrauka"
+      },
+      {
+        "url": "photos/2026-11-14/autozam-hotwheels-dreamgarage-red-8-additional.png",
+        "label": "Mano kolekcijos nuotrauka – papildoma"
       }
     ],
     "packaged": true,
@@ -1365,6 +1381,10 @@ window.collection = [
       {
         "url": "photos/2026-11-14/rx7-hotwheels-projectmu-blue.png",
         "label": "Mano kolekcijos nuotrauka"
+      },
+      {
+        "url": "photos/2026-11-14/rx7-hotwheels-projectmu-blue-additional.png",
+        "label": "Mano kolekcijos nuotrauka – papildoma"
       }
     ]
   },
