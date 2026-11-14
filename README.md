@@ -16,4 +16,6 @@ New photographs are published only as copies stripped of EXIF/GPS, XMP, IPTC, co
 
 Entries may specify publisher separately from maker, a confirmed or unconfirmed scale, and a condition. Hachette Collections Japan is a publisher; the Familia manufacturer is unconfirmed. Manufacturer counts include only confirmed makers. The packaged count includes display cases, with each entry showing its specific condition. Photos accept URLs or labeled objects; keep the owner’s main model photograph last.
 
+The owner requested one card for the HBL96 Mazda Premium Twin Pack. Its `models` array includes both MX-5 and RX-7 so the single set appears under either model filter. Statistics count collection entries, including this set once. The merged RX-7 card's original identity and photo URL remain in `mergedFrom`; the duplicate photo file is retained.
+
 Theme choice: the header has accessible Light/Dark buttons (Šviesi / Tamsi). An early head script applies a valid saved `mazda-collection-theme` preference, otherwise follows `prefers-color-scheme`, including system changes until a manual choice. Storage read/write failures are safe. Both palettes cover page surfaces, controls and dialogs; theme-color follows the active theme.

@@ -7,6 +7,8 @@ const scaleLabel = item => `${item.scale}${approximateScale(item) ? '*' : ''}`;
 const brandLabel = item => item.publisher ? `Leidėjas: ${item.publisher}` : item.maker;
 const condition = item => item.condition || (item.packaged ? 'Originalioje pakuotėje' : 'Be pakuotės');
 const conditionTag = item => item.conditionTag || (item.packaged ? 'Pakuotėje' : 'Be pakuotės');
+const modelValues = item => item.models || [item.model];
+const filterValues = (item, key) => key === 'model' ? modelValues(item) : [item[key]];
 const ownerPhotos = item => (item.photos || []).map(entry => typeof entry === 'string' ? {url:entry, label:'Mano kolekcijos nuotrauka'} : entry);
 const placeholder = (item, large = false) => `<div class="placeholder ${large ? 'large' : ''}"><span class="ghost">${esc(item.model)}</span><span class="photo-label">NUOTRAUKA RUOŠIAMA</span><span class="photo-number">${esc(brandLabel(item))} / ${esc(scaleLabel(item))}</span></div>`;
 const photosFor = item => [
@@ -83,9 +85,9 @@ $('detail-body').addEventListener('pointerup',event => {
 $('detail-body').addEventListener('pointercancel',() => { swipeStart = undefined; });
 $('detail').addEventListener('close',() => { activeItem = undefined; swipeStart = undefined; });
 for (const key of ['maker','model','scale']) {
-  for (const value of [...new Set(items.map(item => item[key]))].sort()) {
+  for (const value of [...new Set(items.flatMap(item => filterValues(item, key)))].sort()) {
     const option = document.createElement('option'); option.value = value;
-    option.textContent = `${value}${key === 'scale' && items.filter(item => item.scale === value).every(approximateScale) ? ' (apytikslis)' : ''} · ${items.filter(item => item[key] === value).length}`;
+    option.textContent = `${value}${key === 'scale' && items.filter(item => item.scale === value).every(approximateScale) ? ' (apytikslis)' : ''} · ${items.filter(item => filterValues(item, key).includes(value)).length}`;
     $(key).append(option);
   }
 }
@@ -95,7 +97,7 @@ $('packed').textContent = items.filter(item => item.packaged).length;
 $('updated').textContent = items.map(item => item.added).sort().at(-1) || '—';
 function render() {
   const query = $('query').value.trim().toLocaleLowerCase('lt');
-  const shown = items.filter(item => ['maker','model','scale'].every(key => !$(key).value || item[key] === $(key).value) && [item.name,item.maker,item.publisher,item.series,item.color,item.description].join(' ').toLocaleLowerCase('lt').includes(query));
+  const shown = items.filter(item => ['maker','model','scale'].every(key => !$(key).value || filterValues(item, key).includes($(key).value)) && [item.name,item.maker,item.publisher,item.series,item.color,item.description].join(' ').toLocaleLowerCase('lt').includes(query));
   $('results').textContent = `Rodoma ${shown.length} iš ${items.length}`;
   $('cards').innerHTML = shown.map(item => `<article class="card"><button class="card-open" data-id="${esc(item.id)}" aria-label="Plačiau: ${esc(item.name)}">${photo(item)}<div class="card-body"><p class="eyebrow">${esc(brandLabel(item))} <span>↗</span></p><h3>${esc(item.name)}</h3><p class="series">${esc(item.series)}</p><p class="description">${esc(item.description)}</p><div class="tags"><span>${esc(scaleLabel(item))}</span><span>${esc(item.color)}</span><span>${esc(conditionTag(item))}</span></div><div class="card-bottom"><span>PRIDĖTA ${esc(item.added)}</span><span>Peržiūrėti →</span></div></div></button></article>`).join('');
   $('empty').hidden = shown.length !== 0;

@@ -899,7 +899,13 @@ window.collection = [
         "name": "Solido – S1810601",
         "url": "https://www.solido.com/en/la-collection/s1810601-mazda-rx7-fd3rs-montego-blue-mica-1994/"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-14/rx7-solido-montego-blue-catalog.png",
+      "sourceUrl": "https://www.activepowersports.com/solido-1-18-1994-mazda-rx-7-type-rs-fd3rs-montego-blue-mica-diecast/",
+      "sourceName": "Active Powersports – Solido S1810601",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-23337/images/stencil/1280x1280/products/1457260/1764485/S1810601_1__28538.1732822312.jpg?c=2"
+    }
   },
   {
     "id": "rx3-jada-saitama-white-red",
@@ -956,7 +962,12 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-chiyuan-pink.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://toyloft.in/cdn/shop/files/MazdaMiataMX-5DiecastCar_4_2f096f88-c01f-4480-9496-9d65295876c6.jpg?v=1760776678&width=1946",
+      "sourceUrl": "https://toyloft.in/products/pink-mazda-miata-mx-5-diecast-car-1-32-alloy-model-toy-with-pull-back-action-openable-doors-realistic-design-collectible-gift-for-kids-adults-tz-os1560",
+      "sourceName": "Toyloft – rožinė Mazda Miata, 1:32"
+    }
   },
   {
     "id": "323-whitebox-4wd-turbo-black",
@@ -985,7 +996,13 @@ window.collection = [
         "name": "Model Car World – WB124222",
         "url": "https://www.modelcarworld.com/de/prod/269804/mazda-323-4wd-turbo-schwarz-dunkelgrau-1989-1-24-whitebox"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-14/323-whitebox-4wd-turbo-black-catalog.png",
+      "sourceUrl": "https://livecarmodel.com/products/1-24-whitebox-1989-mazda-323-4wd-turbo-black-grey-diecast-car-model.html",
+      "sourceName": "LiveCarModel – WhiteBox WB124222",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/45080/194976/QQ20240619075256__16933.1754718401.png?c=2"
+    }
   },
   {
     "id": "rx7-jada-black-panther",
@@ -1075,7 +1092,12 @@ window.collection = [
         "url": "photos/2026-11-14/savanna-hachette-blue-1972.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://img.ricardostatic.ch/images/18439b03-e487-4004-867a-028a3b7cb266/t_1000x750/mazda-rx-3-savanna-coupe-gt-s102-1972-1978-rhd-dunkelblau",
+      "sourceUrl": "https://www.ricardo.ch/de/a/mazda-rx-3-savanna-coupe-gt-s102-1972-1978-rhd-dunkelblau-1246050698/",
+      "sourceName": "Ricardo – Savanna Coupe GT S102, 1:43"
+    }
   },
   {
     "id": "capella-hachette-orange-1970",
@@ -1103,7 +1125,13 @@ window.collection = [
         "url": "photos/2026-11-14/capella-hachette-orange-1970.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-14/capella-hachette-orange-1970-catalog.png",
+      "sourceUrl": "https://livecarmodel.com/products/1-43-hachette-1970-mazda-capella-rotary-coupe-orange-car-model.html",
+      "sourceName": "LiveCarModel – Hachette Capella",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/38422/167042/QQ20231113144237__82904.1699915433.png?c=2"
+    }
   },
   {
     "id": "rx7-hotwheels-savanna-navy-176",
@@ -1208,7 +1236,12 @@ window.collection = [
         "url": "photos/2026-11-14/mazda6-jkm-red-jv64003.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/3YIAAOSwEhJnNbqM/s-l1200.jpg",
+      "sourceUrl": "https://www.ebay.com/itm/226450059523",
+      "sourceName": "eBay – JKM Mazda 6 JV64003"
+    }
   },
   {
     "id": "mx5-diecastteam-nc-rusteze-95",
@@ -1231,7 +1264,12 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-diecastteam-nc-rusteze-95.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/8P4AAeSw~QpopLPg/s-l1200.jpg",
+      "sourceUrl": "https://www.ebay.com/itm/406145640302",
+      "sourceName": "eBay – DCT MX-5 Race Car Nr. 95"
+    }
   },
   {
     "id": "mx5-hotwheels-jimports-mint-69",
@@ -1304,7 +1342,13 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-toretto-red.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-14/rx7-hotwheels-toretto-red-catalog.png",
+      "sourceUrl": "https://99diecast.com/products/hot-wheels-1995-mazda-rx-7-the-fast-and-the-furious-fast-furious-2024",
+      "sourceName": "99Diecast – Dominic Toretto HRW46",
+      "originalUrl": "https://99diecast.com/cdn/shop/files/HW-HRW46_front_196b835f-ea55-4ae7-be3d-48635ad5b271.jpg?v=1764774521"
+    }
   },
   {
     "id": "cosmo-hotwheels-jimports-orange-hrt00",
@@ -1459,7 +1503,12 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-burgundy-172.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/i2cAAeSweAVqm4LC/s-l1600.webp",
+      "sourceUrl": "https://www.ebay.com/itm/117396619066",
+      "sourceName": "eBay – bordo Miata Nr. 172, penkių stipinų ratai"
+    }
   },
   {
     "id": "az1-matchbox-yellow-79",
@@ -1766,7 +1815,12 @@ window.collection = [
         "url": "photos/2026-11-14/az1-matchbox-red-black.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "https://tools.toywiz.com/_images/_webp/_products/lg/0611816234185.webp",
+      "sourceUrl": "https://toywiz.com/matchbox-1992-mazda-autozam-az-1-diecast-car/",
+      "sourceName": "ToyWiz – raudona Matchbox Autozam AZ-1"
+    }
   },
   {
     "id": "mx5-hotwheels-modernclassics-green",
@@ -1848,13 +1902,13 @@ window.collection = [
   },
   {
     "id": "mx5-hotwheels-premium-twinpack-black",
-    "name": "2004 Mazda Mazdaspeed Miata · Premium 2-Pack",
-    "model": "MX-5",
+    "name": "Mazda Mazdaspeed Miata ir RX7 FC Pandem · Twin Pack",
+    "model": "MX-5 / RX-7",
     "maker": "Hot Wheels",
-    "color": "Juoda",
+    "color": "Juoda ir balta",
     "series": "Premium Car Culture · 2-Pack · HBL96",
-    "description": "Juoda „Hot Wheels Premium“ ’04 Mazda Mazdaspeed Miata su raudonu salonu ir bronzos spalvos ratlankiais. Vienas iš dviejų modeliukų bendroje pakuotėje su balta Mazda RX7 FC Pandem.",
-    "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
+    "description": "„Hot Wheels Premium Car Culture“ dviejų modeliukų rinkinys vienoje originalioje pakuotėje: juoda 2004 Mazda Mazdaspeed Miata su raudonu salonu bei bronzos spalvos ratlankiais ir balta Mazda RX7 FC Pandem su praplatintu kėbulu. Abu automobiliai rodomi vienoje rinkinio kortelėje; mastelis 1:64.",
+    "story": "Vienoje „Hot Wheels Premium“ pakuotėje sujungti du skirtingi „Mazda“ sportiniai automobiliai: MX-5 rodsteris ir RX-7 FC kupė su „Pandem“ apdaila. Rinkinį identifikuoja kodai HBL96 ir HRR75; automobilio metai nėra modeliukų leidimo metai.",
     "packaged": true,
     "added": "2026-11-14",
     "scale": "1:64",
@@ -1866,39 +1920,29 @@ window.collection = [
       "sourceName": "AGR Models"
     },
     "setId": "hotwheels-mazda-twinpack-hbl96",
-    "setNote": "Vienas iš dviejų modeliukų bendroje originalioje „Hot Wheels Premium“ pakuotėje.",
+    "setNote": "Vienas kolekcijos įrašas – du modeliukai bendroje originalioje pakuotėje.",
     "photos": [
       {
         "url": "photos/2026-11-14/mx5-hotwheels-premium-twinpack-black.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
-  },
-  {
-    "id": "rx7-hotwheels-premium-twinpack-white",
-    "name": "Mazda RX7 FC Pandem · Premium 2-Pack",
-    "model": "RX-7",
-    "maker": "Hot Wheels",
-    "color": "Balta",
-    "series": "Premium Car Culture · 2-Pack · HBL96",
-    "description": "Balta „Hot Wheels Premium“ Mazda RX7 FC Pandem su praplatintu kėbulu, „Pandem“ užrašu ir sidabro spalvos ratlankiais. Vienas iš dviejų modeliukų bendroje pakuotėje su juoda ’04 Mazda Mazdaspeed Miata.",
-    "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
-    "packaged": true,
-    "added": "2026-11-14",
-    "scale": "1:64",
-    "scaleApproximate": false,
-    "scaleNote": "Mastelis 1:64 patvirtintas šio varianto pakuotėje arba nurodytame kataloginiame šaltinyje.",
-    "catalog": {
-      "url": "https://agrmodels.uk/cdn/shop/files/hw-premium-2-pack-mazda-miata-mazda-rx7.jpg?width=1200",
-      "sourceUrl": "https://agrmodels.uk/products/hot-wheels-premium-twin-pack-04-mazda-miata-mazda-rx7-fc-pandem",
-      "sourceName": "AGR Models"
-    },
-    "setId": "hotwheels-mazda-twinpack-hbl96",
-    "setNote": "Vienas iš dviejų modeliukų bendroje originalioje „Hot Wheels Premium“ pakuotėje.",
-    "photos": [
+    ],
+    "models": [
+      "MX-5",
+      "RX-7"
+    ],
+    "condition": "Bendroje originalioje „Hot Wheels Premium“ dviejų modeliukų pakuotėje",
+    "conditionTag": "2 modeliukų rinkinys",
+    "mergedFrom": [
       {
-        "url": "photos/2026-11-14/rx7-hotwheels-premium-twinpack-white.jpg",
-        "label": "Mano kolekcijos nuotrauka"
+        "id": "rx7-hotwheels-premium-twinpack-white",
+        "name": "Mazda RX7 FC Pandem · Premium 2-Pack",
+        "photos": [
+          {
+            "url": "photos/2026-11-14/rx7-hotwheels-premium-twinpack-white.jpg",
+            "label": "Mano kolekcijos nuotrauka"
+          }
+        ]
       }
     ]
   },
@@ -1947,6 +1991,12 @@ window.collection = [
         "url": "photos/2026-11-14/rx8-matchbox-red.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "catalog": {
+      "url": "photos/2026-11-14/rx8-matchbox-red-catalog.png",
+      "sourceUrl": "https://thetoybarn.co.uk/matchbox-2004-mazda-rx-8-red-1-64-scale-die-cast-vehicle/",
+      "sourceName": "The Toy Barn – Matchbox RX-8",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-cpuexkide6/images/stencil/1280x1280/products/5492/34954/094217a2-f657-4c35-b2c5-95eb4636b081__15605.1780603316.jpg?c=2%3Fimbypass%3Don"
+    }
   }
 ];
