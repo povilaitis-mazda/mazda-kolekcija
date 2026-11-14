@@ -38,8 +38,8 @@
   document.addEventListener('DOMContentLoaded', syncControls);
 })();
 </script>
-<link rel="stylesheet" href="style.css?v=gallery-2">
-<script src="collection.js?v=catalog-twinpack-20261114" defer></script><script src="app.js?v=catalog-twinpack-20261114" defer></script>
+<link rel="stylesheet" href="style.css?v=filters-grid-1">
+<script src="collection.js?v=scales-20261114-1" defer></script><script src="app.js?v=filters-grid-1" defer></script>
 </head>
 <body>
 <a class="skip" href="#kolekcija">Pereiti prie kolekcijos</a>
@@ -48,7 +48,7 @@
 <main>
 <section class="hero"><div><p class="eyebrow">POVILAITIS / ASMENINĖ KOLEKCIJA</p><h1>Mažas mastelis.<br><span>Didelė aistra.</span></h1><p class="intro">Tik „Mazda“. Nuo rotorinės legendos iki lengvojo rodsterio – mano kolekcijos automobiliai ir jų istorijos.</p><a class="primary" href="#kolekcija">Atrask modeliukus <span>↓</span></a></div><aside class="hero-aside"><span class="outline">MAZDA</span><p>KIEKVIENAS MODELIS –<br>DALIS ISTORIJOS.</p><span class="edition">KOLEKCIJOS KATALOGAS / 001</span></aside></section>
 <section class="stats" aria-label="Kolekcijos statistika"><div><strong id="total">67</strong><span>įrašai kolekcijoje</span></div><div><strong id="makers">10</strong><span>patvirtinti gamintojai</span></div><div><strong id="packed">64</strong><span>pakuotėje arba dėkle</span></div><div><strong class="date" id="updated">2026-11-14</strong><span>paskutinis papildymas</span></div></section>
-<section id="kolekcija" class="collection"><div class="section-title"><div><p class="eyebrow">GARAŽAS MINIATIŪROJE</p><h2>Mano kolekcija<span>.</span></h2></div><p id="results" role="status" aria-live="polite"></p></div>
+<section id="kolekcija" class="collection"><div class="section-title"><div><p class="eyebrow">GARAŽAS MINIATIŪROJE</p><h2>Mano kolekcija<span>.</span></h2></div><div class="collection-controls"><p id="results" role="status" aria-live="polite"></p><label class="columns-control">Stulpeliai<select id="columns" aria-controls="cards"><option value="auto">Automatiškai</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></label></div></div>
 <form id="filters" class="filters" role="search"><label class="search">Paieška<input id="query" type="search" placeholder="Ieškoti modelio, serijos, spalvos…"></label><label>Gamintojas<select id="maker"><option value="">Visi gamintojai</option></select></label><label>Modelis<select id="model"><option value="">Visi modeliai</option></select></label><label>Mastelis<select id="scale"><option value="">Visi masteliai</option></select></label><button class="reset" type="reset">Išvalyti</button></form>
 <div class="grid" id="cards"></div><div id="empty" hidden><h3>Modeliukų nerasta</h3><p>Pabandyk kitą paiešką arba išvalyk filtrus.</p></div>
 

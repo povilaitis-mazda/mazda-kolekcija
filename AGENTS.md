@@ -13,6 +13,7 @@
 1. Prieš pridėjimą palygink su visu aktualiu `collection.js` katalogu pagal automobilio modelį, modeliuko gamintoją, spalvą, dekoraciją, seriją, numerį ir kodus. Tas pats variantas yra galimas dublikatas: perspėk ir palauk naudotojo sprendimo prieš pridėjimą. Kita spalva ar leidimas gali būti atskiras variantas.
 2. Remkis priekio, pakuotės galo ir dugno fotografijomis. Jei identifikacija abejotina, prieš pridėjimą paprašyk papildomos nuotraukos. Nepriskirk nepatvirtinto gamintojo, mastelio, retumo, leidimo metų ar kitų faktų. Automobilio modelio metai nėra modeliuko išleidimo metai.
 3. Leidėją saugok atskirai nuo fizinio gamintojo. Hachette Collections Japan yra Familia leidėjas; šio egzemplioriaus fizinis gamintojas nepatvirtintas. Kinsfun RX-7 KT-4018 mastelis nepatvirtintas. Apytikslį mastelį aiškiai pažymėk; patvirtintam 1:43 netaikyk apytikslio mastelio žymos.
+   Savininkas 2026-11-14 patvirtino, kad visi jo dabartiniai „Hot Wheels“ ir „Matchbox“ modeliukai kolekcijoje žymimi 1:64. Išsaugok šį patvirtinimą ir `scaleSource`; nekeisk jų atgal į „Nepatvirtintas“ vien dėl to, kad mastelis neperskaitomas pakuotės priekyje. Šis patvirtinimas netaikomas kitų gamintojų ar neidentifikuotiems modeliukams.
 4. Išsaugok visus senus įrašus ir nuotraukų nuorodas. Naują įrašą pridėk į `collection.js`; skaitliukai, filtrai ir paskutinio papildymo data skaičiuojami iš duomenų. Naudok tikrą papildymo datą pagal Europe/Vilnius.
 5. Patikrink būklę: pakuotė, ekspozicinis dėklas ar be pakuotės. Visų įrašų automatiškai nevadink esančiais originalioje pakuotėje.
 
@@ -39,6 +40,8 @@
 - Publikuok tik turėdamas naudotojo autorizaciją ir realiai patvirtintus įrankių leidimus. Pakartotinių pokalbio patvirtinimų neprašyk, kai galiojanti autorizacija jau apima veiksmą; privalomų įrankio patvirtinimų neapeik.
 - Po commit patikrink tikslų nuotolinės `main` SHA, šiam commit skirtą GitHub Pages vykdymą bei jo publikavimo žingsnį ir tikrą viešą svetainę. Publikavimo nelaikyk visiškai patikrintu, kol viešas rezultatas nepatikrintas. Jei jį tikrina naudotojas kitame pokalbyje, aiškiai atskirk GitHub patvirtintą publikavimą nuo dar laukiančios viešo puslapio patikros.
 - Laikykis debesijos tinklo politikos. Daryk tik oficialiai palaikomus konfigūracijos pakeitimus ir tikrink jų taikymą vykdomai sesijai. Reusable aplinkos Publish neįrodo, kad sena sesija jau atnaujinta. Nebandyk tinklo ribojimų apeiti; pateik tikslų blokavimą ir tęstinumo instrukciją naujai sesijai.
+- Filtrų pasirinkimus ir skaičius skaičiuok pagal paiešką bei kitus aktyvius filtrus. Nesiūlyk nulį rezultatų turinčių derinių. Išsaugok „Twin Pack“ paiešką per abu jo modelius.
+- Išsaugok automatinį ir rankinį 2 / 3 / 4 stulpelių pasirinkimą, įsimenamą naršyklėje. Plačiame 2560 × 1080 ekrane automatinis režimas turi rodyti keturis stulpelius; mažame ekrane kortelės turi išlikti skaitomos. Patikrink ir neprieinamą `localStorage`.
 
 Bendrauk lietuviškai, glaustai ir paprastai. Visada aiškiai pasakyk, kas tik paruošta, kas įkelta, kas paskelbta ir kas dar nepatikrinta.
 

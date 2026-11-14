@@ -18,4 +18,8 @@ Entries may specify publisher separately from maker, a confirmed or unconfirmed 
 
 The owner requested one card for the HBL96 Mazda Premium Twin Pack. Its `models` array includes both MX-5 and RX-7 so the single set appears under either model filter. Statistics count collection entries, including this set once. The merged RX-7 card's original identity and photo URL remain in `mergedFrom`; the duplicate photo file is retained.
 
+The owner confirmed the collection's 1:64 designation for all current Hot Wheels and Matchbox entries on 2026-11-14. `scaleSource` records that confirmation where it resolves an earlier unconfirmed or approximate entry. Other makers are assessed separately.
+
+Filter options and counts follow the current search and other selected facets; each facet excludes its own selection from its option counts. Incompatible earlier choices are cleared in favor of the most recent choice. The column selector stores `auto`, `2`, `3`, or `4` under `mazda-collection-columns`. Automatic layout uses four columns on a 2560px display; narrower breakpoints cap manual choices so cards remain readable. Storage failures fall back safely to automatic layout.
+
 Theme choice: the header has accessible Light/Dark buttons (Šviesi / Tamsi). An early head script applies a valid saved `mazda-collection-theme` preference, otherwise follows `prefers-color-scheme`, including system changes until a manual choice. Storage read/write failures are safe. Both palettes cover page surfaces, controls and dialogs; theme-color follows the active theme.

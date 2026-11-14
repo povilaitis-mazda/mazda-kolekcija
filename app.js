@@ -84,27 +84,75 @@ $('detail-body').addEventListener('pointerup',event => {
 });
 $('detail-body').addEventListener('pointercancel',() => { swipeStart = undefined; });
 $('detail').addEventListener('close',() => { activeItem = undefined; swipeStart = undefined; });
-for (const key of ['maker','model','scale']) {
-  for (const value of [...new Set(items.flatMap(item => filterValues(item, key)))].sort()) {
-    const option = document.createElement('option'); option.value = value;
-    option.textContent = `${value}${key === 'scale' && items.filter(item => item.scale === value).every(approximateScale) ? ' (apytikslis)' : ''} · ${items.filter(item => filterValues(item, key).includes(value)).length}`;
-    $(key).append(option);
+const filterKeys = ['maker','model','scale'];
+const filterNames = {maker:'Visi gamintojai', model:'Visi modeliai', scale:'Visi masteliai'};
+let filterPriority = [...filterKeys];
+const matchesSelection = (item, selection, excludedKey) => filterKeys.every(key =>
+  key === excludedKey || !selection[key] || filterValues(item, key).includes(selection[key]));
+const readSelection = () => Object.fromEntries(filterKeys.map(key => [key, $(key).value]));
+function updateFilters(candidates, changedKey) {
+  if (filterKeys.includes(changedKey)) filterPriority = [changedKey, ...filterPriority.filter(key => key !== changedKey)];
+  const selection = readSelection();
+  let compatible = candidates;
+  // Keep the most recent choice; clear earlier choices that cannot coexist.
+  for (const key of filterPriority) {
+    if (!selection[key]) continue;
+    const matches = compatible.filter(item => filterValues(item, key).includes(selection[key]));
+    if (matches.length) compatible = matches;
+    else selection[key] = '';
   }
+  for (const key of filterKeys) {
+    // A facet's counts apply every other facet, but exclude its own selection.
+    const available = candidates.filter(item => matchesSelection(item, selection, key));
+    const counts = new Map();
+    for (const item of available) for (const value of new Set(filterValues(item, key))) {
+      counts.set(value, (counts.get(value) || 0) + 1);
+    }
+    const options = [new Option(filterNames[key], '')];
+    for (const [value, count] of [...counts].sort(([a], [b]) => a.localeCompare(b, 'lt', {numeric:true}))) {
+      const approximate = key === 'scale' && available.filter(item => item.scale === value).every(approximateScale);
+      options.push(new Option(`${value}${approximate ? ' (apytikslis)' : ''} · ${count}`, value));
+    }
+    $(key).replaceChildren(...options);
+    $(key).value = selection[key];
+  }
+  return selection;
 }
+const columnsKey = 'mazda-collection-columns';
+const columnChoices = ['auto', '2', '3', '4'];
+const applyColumns = value => {
+  const choice = columnChoices.includes(value) ? value : 'auto';
+  $('columns').value = choice;
+  $('cards').dataset.columns = choice;
+};
+let savedColumns;
+try { savedColumns = window.localStorage.getItem(columnsKey); } catch (_) {}
+applyColumns(savedColumns);
+$('columns').addEventListener('change', () => {
+  applyColumns($('columns').value);
+  try { window.localStorage.setItem(columnsKey, $('columns').value); } catch (_) {}
+});
 $('total').textContent = items.length;
 $('makers').textContent = new Set(items.filter(item => item.maker !== 'Nepatvirtintas').map(item => item.maker)).size;
 $('packed').textContent = items.filter(item => item.packaged).length;
 $('updated').textContent = items.map(item => item.added).sort().at(-1) || '—';
-function render() {
+function render(changedKey) {
   const query = $('query').value.trim().toLocaleLowerCase('lt');
-  const shown = items.filter(item => ['maker','model','scale'].every(key => !$(key).value || filterValues(item, key).includes($(key).value)) && [item.name,item.maker,item.publisher,item.series,item.color,item.description].join(' ').toLocaleLowerCase('lt').includes(query));
+  const candidates = items.filter(item => [item.name,item.maker,item.publisher,item.series,item.color,item.description].join(' ').toLocaleLowerCase('lt').includes(query));
+  const selection = updateFilters(candidates, changedKey);
+  const shown = candidates.filter(item => matchesSelection(item, selection));
   $('results').textContent = `Rodoma ${shown.length} iš ${items.length}`;
   $('cards').innerHTML = shown.map(item => `<article class="card"><button class="card-open" data-id="${esc(item.id)}" aria-label="Plačiau: ${esc(item.name)}">${photo(item)}<div class="card-body"><p class="eyebrow">${esc(brandLabel(item))} <span>↗</span></p><h3>${esc(item.name)}</h3><p class="series">${esc(item.series)}</p><p class="description">${esc(item.description)}</p><div class="tags"><span>${esc(scaleLabel(item))}</span><span>${esc(item.color)}</span><span>${esc(conditionTag(item))}</span></div><div class="card-bottom"><span>PRIDĖTA ${esc(item.added)}</span><span>Peržiūrėti →</span></div></div></button></article>`).join('');
   $('empty').hidden = shown.length !== 0;
 }
-$('filters').addEventListener('input',render);
+$('filters').addEventListener('input', event => { if (event.target.id === 'query') render('query'); });
+$('filters').addEventListener('change', event => { if (filterKeys.includes(event.target.id)) render(event.target.id); });
 $('filters').addEventListener('submit',e => e.preventDefault());
-$('filters').addEventListener('reset',() => setTimeout(render,0));
+$('filters').addEventListener('reset',() => setTimeout(() => {
+  for (const key of filterKeys) $(key).value = '';
+  filterPriority = [...filterKeys];
+  render();
+},0));
 $('cards').addEventListener('click', event => {
   const button = event.target.closest('[data-id]'); if (!button) return;
   const item = items.find(item => item.id === button.dataset.id);

@@ -7,7 +7,7 @@ window.collection = [
     "model": "RX-8",
     "maker": "Matchbox",
     "scale": "1:64",
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "19/125",
     "color": "Sidabrinė",
     "packaged": true,
@@ -21,7 +21,12 @@ window.collection = [
     },
     "photos": [
       "ChatGPT Image Nov 9, 2026, 09_24_40 PM.jpg"
-    ]
+    ],
+    "scaleApproximate": false,
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels",
@@ -29,7 +34,7 @@ window.collection = [
     "model": "MX-5",
     "maker": "Hot Wheels",
     "scale": "1:64",
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "Silver Series · Mini Compact Kings · 4/5",
     "color": "Oranžinė",
     "packaged": true,
@@ -43,7 +48,12 @@ window.collection = [
     },
     "photos": [
       "ChatGPT Image Nov 9, 2026, 09_24_54 PM.jpg"
-    ]
+    ],
+    "scaleApproximate": false,
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "familia-m10a-hachette-white",
@@ -115,8 +125,8 @@ window.collection = [
     "model": "RX-7",
     "maker": "Hot Wheels",
     "scale": "1:64",
-    "scaleApproximate": true,
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleApproximate": false,
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "HW J-Imports · 2/10 · 61/250",
     "color": "Violetinė",
     "packaged": true,
@@ -130,7 +140,11 @@ window.collection = [
     "photos": [
       "1794254063124835.jpg"
     ],
-    "added": "2026-11-10"
+    "added": "2026-11-10",
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-ultrahots-jby62",
@@ -138,8 +152,8 @@ window.collection = [
     "model": "RX-7",
     "maker": "Hot Wheels",
     "scale": "1:64",
-    "scaleApproximate": true,
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleApproximate": false,
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "Ultra Hots · 3/8 · JBY62",
     "color": "Tamsi (juoda)",
     "packaged": true,
@@ -153,7 +167,11 @@ window.collection = [
     "photos": [
       "1794254062572872.jpg"
     ],
-    "added": "2026-11-10"
+    "added": "2026-11-10",
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-neonspeeders-pink",
@@ -161,8 +179,8 @@ window.collection = [
     "model": "RX-7",
     "maker": "Hot Wheels",
     "scale": "1:64",
-    "scaleApproximate": true,
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleApproximate": false,
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "Neon Speeders · 2/8 · HLH72",
     "color": "Rožinė",
     "packaged": true,
@@ -180,7 +198,11 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka – papildoma"
       }
     ],
-    "added": "2026-11-10"
+    "added": "2026-11-10",
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-fd-fast-furious-orange",
@@ -322,9 +344,9 @@ window.collection = [
       "sourceUrl": "https://99diecast.com/products/matchbox-2021-mazda-mx-30-moving-parts-2023-4-5",
       "sourceName": "99Diecast"
     },
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -332,7 +354,11 @@ window.collection = [
         "url": "photos/2026-11-10/mx30-matchbox-70years-orange.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx3-hotwheels-tooned-blue-123",
@@ -342,15 +368,15 @@ window.collection = [
     "series": "Tooned · 1/5 · 142/250",
     "color": "Mėlyna",
     "description": "Mėlynas, stilizuotų „Tooned“ proporcijų Mazda RX-3 su raudona važiuokle, ryškiai išsikišusiu varikliu, „Toyo Tires“ ir „Mad Mike“ grafika bei numeriu 123. Priekinis ratlankis aukso, galinis – sidabro spalvos. Originalioje pakuotėje, „Tooned“ 1/5 ir 142/250.",
-    "story": "Šis RX-3 vaizduojamas karikatūrinėmis „Tooned“ proporcijomis. Tai atskiras RX-3 variantas, atpažįstamas pagal mėlyną spalvą, numerį 123 ir dekoraciją. Tikslus mastelis ir modeliuko leidimo metai iš šios pakuotės priekio nepatvirtinti.",
+    "story": "Šis RX-3 vaizduojamas karikatūrinėmis „Tooned“ proporcijomis. Tai atskiras RX-3 variantas, atpažįstamas pagal mėlyną spalvą, numerį 123 ir dekoraciją. Kolekcijoje naudojamas savininko patvirtintas 1:64 mastelis. Modeliuko leidimo metai iš šios pakuotės priekio nepatvirtinti.",
     "catalog": {
       "url": "https://collectorsworldtoys.com/cdn/shop/files/hot-wheels-mazda-rx-3-jjj95-1-front.jpg?v=1794285379",
       "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-mazda-rx-3-tooned-series-1-5",
       "sourceName": "Collectors World Toys"
     },
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -358,7 +384,11 @@ window.collection = [
         "url": "photos/2026-11-10/rx3-hotwheels-tooned-blue-123.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mazda3-matchbox-2019-black-14",
@@ -369,9 +399,9 @@ window.collection = [
     "color": "Juoda",
     "description": "Juodas „Matchbox“ 2019 Mazda 3 hečbekas su tamsiais langais ir ratlankiais. Originalioje pakuotėje aiškiai nurodyta „2019 Mazda 3“, numeris 14/125 ir asortimento kodas C0859.",
     "story": "Mazda 3 miniatiūra atkartoja penkiadurių hečbeko kėbulą. Pavadinimo 2019 metai nurodo vaizduojamą automobilį; modeliuko pagaminimo ar leidimo metų pagal juos nepriskiriame.",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -384,6 +414,10 @@ window.collection = [
       "url": "https://www.rarewaves.com/cdn/shop/files/orig_15095491_28973536_20260529090456_c49b92ad-dcee-4fa2-9020-f92e197e98de.jpg?v=1780095306&width=416",
       "sourceUrl": "https://www.rarewaves.com/products/0194735354726-cars-colour-change-hj-hollis-toys",
       "sourceName": "Rarewaves"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -400,9 +434,9 @@ window.collection = [
       "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-95-mazda-rx-7-drift-70s-vs-90s-series-9-10",
       "sourceName": "Collectors World Toys"
     },
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -414,7 +448,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-drift-red-95-additional.png",
         "label": "Mano kolekcijos nuotrauka – papildoma"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-dreamgarage-white-5",
@@ -430,9 +468,9 @@ window.collection = [
       "sourceUrl": "https://collectorsworldtoys.com/products/hot-wheels-15-mazda-mx-5-miata-dream-garage-series-1-5",
       "sourceName": "Collectors World Toys"
     },
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -444,7 +482,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-dreamgarage-white-5-additional.png",
         "label": "Mano kolekcijos nuotrauka – papildoma"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-dreamgarage-blue-5",
@@ -455,9 +497,9 @@ window.collection = [
     "color": "Mėlyna",
     "description": "Mėlyna „Hot Wheels“ Mazda MX-5 Miata su juodomis praplatintomis arkomis ir stogu, juoda bei geltona grafika, numeriu 5 ir sidabro spalvos ratlankiais. Originalioje pakuotėje: „HW Dream Garage“ 1/5 ir 1/250.",
     "story": "Sportiškai modifikuota MX-5 Miata interpretacija su papildomais priekiniais žibintais ir praplatintu kėbulu. Nuo balto šios serijos varianto skiriasi spalva, grafika ir ratlankiais, todėl tai atskiras kolekcijos įrašas.",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -470,6 +512,10 @@ window.collection = [
       "url": "https://topcollectibles.com/cdn/shop/files/hot-wheels-mazda-mx-5-miata-2026diecasthot-wheels-7514163.jpg?v=1783624864&width=1080",
       "sourceUrl": "https://topcollectibles.com/products/hot-wheels-mazda-mx-5-miata-2028",
       "sourceName": "Top Collectibles"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -486,9 +532,9 @@ window.collection = [
       "sourceUrl": "https://agrmodels.uk/products/hot-wheels-fast-furious-race-off-2-5-1995-mazda-rx-7",
       "sourceName": "AGR Models"
     },
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -496,15 +542,19 @@ window.collection = [
         "url": "photos/2026-11-10/rx7-hotwheels-raceoff-white-hks.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "autozam-hotwheels-dreamgarage-red-8",
     "name": "Mazda Autozam · HW Dream Garage",
     "model": "Autozam",
     "maker": "Hot Wheels",
-    "scale": "Nepatvirtintas",
-    "scaleNote": "Tikslus šio stipriai stilizuoto modeliuko mastelis pakuotės priekio nuotraukoje nenurodytas.",
+    "scale": "1:64",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "HW Dream Garage · 1/5 · 8/250",
     "color": "Raudona",
     "description": "Raudonas „Hot Wheels“ Mazda Autozam su labai dideliais ratais, sidabro spalvos pakelta važiuokle, papildomais žibintais ant stogo ir balta bei mėlyna dekoracija. Originalioje pakuotėje: „HW Dream Garage“ 1/5 ir 8/250.",
@@ -526,7 +576,11 @@ window.collection = [
       }
     ],
     "packaged": true,
-    "scaleApproximate": false
+    "scaleApproximate": false,
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx8-fast-furious-blue-black",
@@ -694,7 +748,7 @@ window.collection = [
     "model": "RX-8",
     "maker": "Matchbox",
     "scale": "1:64",
-    "scaleNote": "Apytikslis mastelis; tikslus santykis nepatvirtintas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "series": "19/125 · dėžutėje",
     "color": "Sidabrinė",
     "packaged": true,
@@ -710,7 +764,11 @@ window.collection = [
     "variantOf": "rx8-matchbox",
     "condition": "Kartoninėje „Matchbox“ dėžutėje",
     "conditionTag": "Dėžutėje",
-    "scaleApproximate": true
+    "scaleApproximate": false,
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mazda3-matchbox-boxed-unit",
@@ -721,9 +779,9 @@ window.collection = [
     "color": "Juoda",
     "description": "Papildomas juodo „Matchbox“ 2019 Mazda 3 vienetas, numeris 14/125. Naudotojas patvirtino, kad tai atskiras turimas vienetas, ne anksčiau užregistruotas egzempliorius lizdinėje pakuotėje. Šis saugomas kartoninėje dėžutėje; pateiktoje fotografijoje matoma pakuotė.",
     "story": "Mazda 3 miniatiūra atkartoja penkiadurių hečbeko kėbulą. Pavadinimo 2019 metai nurodo vaizduojamą automobilį; modeliuko pagaminimo ar leidimo metų pagal juos nepriskiriame.",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktoje nuotraukoje nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "packaged": true,
     "added": "2026-11-10",
     "photos": [
@@ -734,7 +792,11 @@ window.collection = [
     ],
     "variantOf": "mazda3-matchbox-2019-black-14",
     "condition": "Kartoninėje „Matchbox“ dėžutėje",
-    "conditionTag": "Dėžutėje"
+    "conditionTag": "Dėžutėje",
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "323f-whitebox-silver-green",
@@ -1144,9 +1206,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-GTC10_front_5c53ce10-274d-440d-8004-14ebd3b16e67.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-89-mazda-savanna-rx-7-fc3s-mainline-2021-176-250",
@@ -1157,7 +1219,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-savanna-navy-176.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "repu-hotwheels-gold-47",
@@ -1170,9 +1236,9 @@ window.collection = [
     "story": "REPU – „Mazda“ pikapo miniatiūra. Šį „Hot Wheels“ variantą išskiria smėlio ir aukso spalvų kėbulas, ornamentai ir melsvi ratlankių apvadai.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://agrmodels.uk/cdn/shop/files/hw-ml-mazda-repu-tan-sc-2025.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/hot-wheels-mazda-repu-tan-sc-2025-hw-j-imports-card-creased",
@@ -1183,7 +1249,11 @@ window.collection = [
         "url": "photos/2026-11-14/repu-hotwheels-gold-47.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-compact-kings-red-15",
@@ -1196,9 +1266,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-JBB18_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-15-mazda-mx-5-miata-mainline-2025-80-250",
@@ -1209,7 +1279,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-compact-kings-red-15.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mazda6-jkm-red-jv64003",
@@ -1282,9 +1356,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HTC42_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-15-mazda-mx-5-miata-green-w-lws-mainline-2024-69",
@@ -1295,7 +1369,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-jimports-mint-69.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-legends-grey",
@@ -1308,9 +1386,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://agrmodels.uk/cdn/shop/files/hw-ml-mazda-mx-5-miata-legends-sc-2025.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/hot-wheels-mazda-mx-5-miata-grey-legends-tour-sc-tatty-card",
@@ -1321,7 +1399,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-legends-grey.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-toretto-red",
@@ -1334,9 +1416,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/rx7-hotwheels-toretto-red.jpg",
@@ -1348,6 +1430,10 @@ window.collection = [
       "sourceUrl": "https://99diecast.com/products/hot-wheels-1995-mazda-rx-7-the-fast-and-the-furious-fast-furious-2024",
       "sourceName": "99Diecast – Dominic Toretto HRW46",
       "originalUrl": "https://99diecast.com/cdn/shop/files/HW-HRW46_front_196b835f-ea55-4ae7-be3d-48635ad5b271.jpg?v=1764774521"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1361,9 +1447,9 @@ window.collection = [
     "story": "Cosmo Sport – vienas ankstyvųjų „Mazda“ sportinių automobilių su rotoriniu varikliu. 1968 metai pavadinime nurodo automobilį, o ne modeliuko išleidimą.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HRT00_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-1968-mazda-cosmo-sport-j-imports-2024-1-5",
@@ -1374,7 +1460,11 @@ window.collection = [
         "url": "photos/2026-11-14/cosmo-hotwheels-jimports-orange-hrt00.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-drift-yellow-95",
@@ -1387,9 +1477,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HYY95_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-95-mazda-rx-7-drift-mainline-2025-163-250",
@@ -1400,7 +1490,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-drift-yellow-95.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-projectmu-blue",
@@ -1413,9 +1507,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HTD97_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-95-mazda-rx-7-mainline-2024-170-250",
@@ -1430,7 +1524,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-projectmu-blue-additional.png",
         "label": "Mano kolekcijos nuotrauka – papildoma"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx8-matchbox-blue-10",
@@ -1443,9 +1541,9 @@ window.collection = [
     "story": "RX-8 išsiskiria rotorinio variklio koncepcija ir ketverių durų kupė kėbulu. Mėlynas variantas skiriasi nuo kolekcijoje esančio sidabrinio RX-8.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/rx8-matchbox-blue-10.png",
@@ -1456,6 +1554,10 @@ window.collection = [
       "url": "https://agrmodels.uk/cdn/shop/files/mb-ml-2004-mazda-rx-8-blue-sc-2025.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/matchbox-2004-mazda-rx-8-blue-sc-2025-mbx-showroom-jbr77",
       "sourceName": "AGR Models"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1469,9 +1571,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HTB62_front_e814f3f3-a4ab-48b7-94b4-8247eaf1e8dd.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-rx-7-white-w-rsws-mainline-2024-80",
@@ -1482,7 +1584,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-police-white-80.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-burgundy-172",
@@ -1495,9 +1601,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/mx5-hotwheels-burgundy-172.jpg",
@@ -1508,6 +1614,10 @@ window.collection = [
       "url": "https://i.ebayimg.com/images/g/i2cAAeSweAVqm4LC/s-l1600.webp",
       "sourceUrl": "https://www.ebay.com/itm/117396619066",
       "sourceName": "eBay – bordo Miata Nr. 172, penkių stipinų ratai"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1521,9 +1631,9 @@ window.collection = [
     "story": "Autozam AZ-1 – mažas dvivietis sportinis automobilis. Šis „Matchbox“ variantas kolekcijoje atskirtas pagal spalvą ir pakuotę.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://agrmodels.uk/cdn/shop/files/matchbox-1992-mazda-autozam-az-1-yellow.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/matchbox-1992-mazda-autozam-az-1-yellow-sc-2025-mbx-showroom",
@@ -1534,7 +1644,11 @@ window.collection = [
         "url": "photos/2026-11-14/az1-matchbox-yellow-79.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx7-hotwheels-savanna-red-223",
@@ -1547,9 +1661,9 @@ window.collection = [
     "story": "RX-7 – „Mazda“ sportinis kupė su rotorinio variklio tradicija. Šį kolekcijos variantą išskiria jo spalva, dekoracija ir pakuotėje nurodyta serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-GHB56_front_13202d7d-ae28-4e9b-8505-c65f7aed179b.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-89-mazda-savanna-rx-7-fc3s-223-250",
@@ -1560,7 +1674,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx7-hotwheels-savanna-red-223.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-jimports-orange-69",
@@ -1573,9 +1691,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/mx5-hotwheels-jimports-orange-69.png",
@@ -1586,6 +1704,10 @@ window.collection = [
       "url": "https://99diecast.com/cdn/shop/files/HW-HTD22_front_d595ab2a-7d37-4ea4-8323-7a35fbba47db.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-15-mazda-mx-5-miata-orange-w-10sps-mainline-2024-69",
       "sourceName": "99Diecast"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1599,9 +1721,9 @@ window.collection = [
     "story": "RX-3 miniatiūra perteikia klasikinio „Mazda“ kupė formas. Šį variantą išskiria jo apipavidalinimas ir konkreti pakuotės serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/rx3-hotwheels-madmike-white-123.png",
@@ -1612,6 +1734,10 @@ window.collection = [
       "url": "https://99diecast.com/cdn/shop/files/HW-HTD77_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-rx-3-mainline-2024-156-250",
       "sourceName": "99Diecast"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1625,9 +1751,9 @@ window.collection = [
     "story": "„Hot Wheels“ Mazda Autozam – stipriai modifikuoto mažojo sunkvežimio interpretacija su dideliais ratais. Šį variantą atpažinti padeda kėbulo spalva ir šonų grafika.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HTC86_front_f16d7927-aea1-4cfe-8153-9b6b3b310c9a.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-autozam-blue-w-or6sps-mainline-2024-1",
@@ -1638,7 +1764,11 @@ window.collection = [
         "url": "photos/2026-11-14/autozam-hotwheels-texastoot-blue.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "autozam-hotwheels-texastoot-white",
@@ -1651,9 +1781,9 @@ window.collection = [
     "story": "„Hot Wheels“ Mazda Autozam – stipriai modifikuoto mažojo sunkvežimio interpretacija su dideliais ratais. Šį variantą atpažinti padeda kėbulo spalva ir šonų grafika.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HRY51_front_a3d61575-00ed-4c39-8988-51224d4a2334.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-autozam-white-w-or6sps-mainline-2024-1",
@@ -1664,7 +1794,11 @@ window.collection = [
         "url": "photos/2026-11-14/autozam-hotwheels-texastoot-white.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "787b-hotwheels-orange-green-55",
@@ -1677,9 +1811,9 @@ window.collection = [
     "story": "787B miniatiūra perteikia žemą „Mazda“ lenktyninio prototipo siluetą. Šis variantas atpažįstamas pagal oranžinę ir žalią dekoraciją bei numerį 55.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HTC79_front.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-787b-mainline-2024-145-250",
@@ -1690,7 +1824,11 @@ window.collection = [
         "url": "photos/2026-11-14/787b-hotwheels-orange-green-55.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-legends-lime",
@@ -1703,9 +1841,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://agrmodels.uk/cdn/shop/files/hw-ml-mazda-mx-5-miata-green-legends-tour-sc-2025.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/hot-wheels-mazda-mx-5-miata-green-legends-tour-sc-tatty-card",
@@ -1716,7 +1854,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-legends-lime.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx3-hotwheels-madmike-orange-123",
@@ -1729,9 +1871,9 @@ window.collection = [
     "story": "RX-3 miniatiūra perteikia klasikinio „Mazda“ kupė formas. Šį variantą išskiria jo apipavidalinimas ir konkreti pakuotės serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HRY71_front_ad04c1e0-88ae-4b06-b096-54d1c7bc27b2.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-mazda-rx-3-orange-w-microoh5s-mainline-2024-156-250",
@@ -1742,7 +1884,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx3-hotwheels-madmike-orange-123.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "cosmo-hotwheels-orange-white-118",
@@ -1755,9 +1901,9 @@ window.collection = [
     "story": "Cosmo Sport – vienas ankstyvųjų „Mazda“ sportinių automobilių su rotoriniu varikliu. 1968 metai pavadinime nurodo automobilį, o ne modeliuko išleidimą.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HKJ14_front_b48fb68e-6639-423f-94f2-44459496f3fd.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-1968-mazda-cosmo-sport-118-250",
@@ -1768,7 +1914,11 @@ window.collection = [
         "url": "photos/2026-11-14/cosmo-hotwheels-orange-white-118.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "rx3-hotwheels-mothers-red",
@@ -1781,9 +1931,9 @@ window.collection = [
     "story": "RX-3 miniatiūra perteikia klasikinio „Mazda“ kupė formas. Šį variantą išskiria jo apipavidalinimas ir konkreti pakuotės serija.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://agrmodels.uk/cdn/shop/files/hw-speed-graphics-mazda-rx3.jpg?width=1200",
       "sourceUrl": "https://agrmodels.uk/products/hot-wheels-hw-speed-graphics-2024-4-5-mazda-rx-3",
@@ -1794,7 +1944,11 @@ window.collection = [
         "url": "photos/2026-11-14/rx3-hotwheels-mothers-red.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "az1-matchbox-red-black",
@@ -1807,9 +1961,9 @@ window.collection = [
     "story": "Autozam AZ-1 – mažas dvivietis sportinis automobilis. Šis „Matchbox“ variantas kolekcijoje atskirtas pagal spalvą ir pakuotę.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/az1-matchbox-red-black.jpg",
@@ -1820,6 +1974,10 @@ window.collection = [
       "url": "https://tools.toywiz.com/_images/_webp/_products/lg/0611816234185.webp",
       "sourceUrl": "https://toywiz.com/matchbox-1992-mazda-autozam-az-1-diecast-car/",
       "sourceName": "ToyWiz – raudona Matchbox Autozam AZ-1"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1859,9 +2017,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "catalog": {
       "url": "https://99diecast.com/cdn/shop/files/HW-HKH87_front_1b99d548-58d5-4709-aa32-83a195a54dd1.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-15-mazda-mx-5-miata-114-250",
@@ -1872,7 +2030,11 @@ window.collection = [
         "url": "photos/2026-11-14/mx5-hotwheels-modified-black-27.png",
         "label": "Mano kolekcijos nuotrauka"
       }
-    ]
+    ],
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
+    }
   },
   {
     "id": "mx5-hotwheels-jimports-black-120",
@@ -1885,9 +2047,9 @@ window.collection = [
     "story": "MX-5 Miata – lengvo dviviečio „Mazda“ rodsterio miniatiūra. Kolekcijoje šis variantas atskirtas pagal spalvą, dekoraciją ir seriją.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/mx5-hotwheels-jimports-black-120.png",
@@ -1898,6 +2060,10 @@ window.collection = [
       "url": "https://99diecast.com/cdn/shop/files/HW-HTC47_front_ad04cb3a-8bf6-4056-b8d5-8ec0a6b46698.jpg?width=1200",
       "sourceUrl": "https://99diecast.com/products/hot-wheels-91-mazda-mx-5-miata-black-w-5sps-mainline-2024-120",
       "sourceName": "99Diecast"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   },
   {
@@ -1983,9 +2149,9 @@ window.collection = [
     "story": "RX-8 išsiskiria rotorinio variklio koncepcija ir ketverių durų kupė kėbulu. Raudonas egzempliorius kataloge atskirtas nuo sidabrinio ir mėlyno variantų.",
     "packaged": true,
     "added": "2026-11-14",
-    "scale": "Nepatvirtintas",
+    "scale": "1:64",
     "scaleApproximate": false,
-    "scaleNote": "Tikslus šio egzemplioriaus mastelis pateiktose nuotraukose nenurodytas.",
+    "scaleNote": "Kolekcijoje naudojamas 1:64 mastelis; šio egzemplioriaus mastelį patvirtino savininkas 2026-11-14.",
     "photos": [
       {
         "url": "photos/2026-11-14/rx8-matchbox-red.jpg",
@@ -1997,6 +2163,10 @@ window.collection = [
       "sourceUrl": "https://thetoybarn.co.uk/matchbox-2004-mazda-rx-8-red-1-64-scale-die-cast-vehicle/",
       "sourceName": "The Toy Barn – Matchbox RX-8",
       "originalUrl": "https://cdn11.bigcommerce.com/s-cpuexkide6/images/stencil/1280x1280/products/5492/34954/094217a2-f657-4c35-b2c5-95eb4636b081__15605.1780603316.jpg?c=2%3Fimbypass%3Don"
+    },
+    "scaleSource": {
+      "type": "owner-confirmation",
+      "date": "2026-11-14"
     }
   }
 ];
