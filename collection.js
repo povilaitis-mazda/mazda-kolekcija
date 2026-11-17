@@ -2195,7 +2195,12 @@ window.collection = [
       "sourceName": "LiveCarModel – Premium X PRD485",
       "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/29826/133896/QQ20230221171610__11910.1677028613.png?c=2"
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "photos/2026-11-17/cx5-premiumx-hiroshima-police-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
     "added": "2026-11-17"
   }
 ];
