@@ -2168,5 +2168,34 @@ window.collection = [
       "type": "owner-confirmation",
       "date": "2026-11-14"
     }
+  },
+  {
+    "id": "cx5-premiumx-hiroshima-police-prd485",
+    "name": "2013 Mazda CX-5 · Hirošimos policija",
+    "model": "CX-5",
+    "maker": "Premium X",
+    "scale": "1:43",
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:43 ir kodas PRD485 patvirtinti „Premium-X“ platintojo „KB MART“ kataloge; variantas atitinka kolekcijos fotografijoje matomą spalvą, policijos ženklinimą ir bumerango formos švyturėlį.",
+    "scaleSource": {
+      "type": "catalog",
+      "url": "https://kokusaiboeki-webshop.com/SHOP/PRD485.html",
+      "sourceName": "KB MART / Kokusai Boeki – Premium-X PRD485"
+    },
+    "series": "Premium X Die-Cast · Japanese Police · PRD485",
+    "color": "Balta ir juoda",
+    "packaged": true,
+    "condition": "Originalioje „Premium X“ dėžėje su langu ir skaidriu ekspoziciniu dėklu",
+    "conditionTag": "Su dėže",
+    "description": "Baltas ir juodas „Premium X“ Mazda CX-5 Hirošimos prefektūros policijos modelis su „POLICE“ ir japoniškais užrašais, numeriu 253 ant stogo, raudonu bumerango formos švyturėliu bei sidabro spalvos ratlankiais. Mastelis 1:43. Kolekcijoje – originalioje dėžėje su langu ir skaidriu ekspoziciniu dėklu.",
+    "story": "Hirošimos policijos CX-5 variantą išskiria juoda apatinė kėbulo dalis, balta viršutinė dalis ir policijos ženklinimas. PRD485 turi bumerango formos švyturėlį; tai kitas leidimas nei PRD486 su LED stogo švieslente. Pavadinimo 2013 metai nurodo vaizduojamą automobilį, o ne modeliuko pagaminimo metus.",
+    "catalog": {
+      "url": "photos/2026-11-17/cx5-premiumx-hiroshima-police-catalog.png",
+      "sourceUrl": "https://livecarmodel.com/products/1-43-premium-x-mazda-cx-5-rhd-japanese-police-car-model.html",
+      "sourceName": "LiveCarModel – Premium X PRD485",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/29826/133896/QQ20230221171610__11910.1677028613.png?c=2"
+    },
+    "photos": [],
+    "added": "2026-11-17"
   }
 ];
