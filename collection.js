@@ -2202,5 +2202,39 @@ window.collection = [
       }
     ],
     "added": "2026-11-17"
+  },
+  {
+    "id": "rx7-hotwheels-silver-anniversary-grey-4",
+    "name": "1995 Mazda RX-7 · Fast & Furious 25 Years",
+    "model": "RX-7",
+    "maker": "Hot Wheels",
+    "scale": "1:64",
+    "scaleApproximate": false,
+    "scaleNote": "Nominalus 1:64 mastelis patvirtintas šio JKX23 modelio katalogo apraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "url": "https://ganguoroshi.jp/category/5604/0194735358434.html",
+      "sourceName": "Kawada – Hot Wheels JKX23 / Mattel"
+    },
+    "series": "Silver Series · Fast & Furious · 25 Years · 4/5 · HNR88 · JKX23",
+    "color": "Sidabrinė",
+    "packaged": true,
+    "condition": "Originalioje „Hot Wheels Silver Series“ lizdinėje pakuotėje",
+    "conditionTag": "Pakuotėje",
+    "description": "Sidabriškai pilkas „Hot Wheels“ 1995 Mazda RX-7 su šviesia šonų grafika, tamsiu salonu, galiniu spoileriu ir juodais ratlankiais su sidabro spalvos apvadais. Originalioje „Silver Series · Fast & Furious“ pakuotėje su 25-mečio ženklu, numeriu 4/5 ir asortimento kodu HNR88. Modelio katalogo kodas JKX23; mastelis 1:64.",
+    "story": "RX-7 FD variantas iš „Fast & Furious“ 25-mečiui skirtos „Silver Anniversary“ serijos. Sidabrinė spalva, šonų dekoracija ir serijos numeris 4/5 identifikuoja šį kolekcijos leidimą. Pavadinimo 1995 metai nurodo vaizduojamo automobilio modelį.",
+    "catalog": {
+      "url": "photos/2026-11-20/rx7-hotwheels-silver-anniversary-catalog.jpg",
+      "sourceUrl": "https://agrmodels.uk/products/hot-wheels-fast-furious-silver-anniversary-4-5-1995-mazda-rx-7",
+      "sourceName": "AGR Models – Silver Anniversary 4/5, JKX23",
+      "originalUrl": "https://agrmodels.uk/cdn/shop/files/hw-ff-silver-anniversary-1995-mazda-rx-7.jpg?v=1790545872&width=1946"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-20/rx7-hotwheels-silver-anniversary-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-20"
   }
 ];
