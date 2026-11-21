@@ -2236,5 +2236,505 @@ window.collection = [
       }
     ],
     "added": "2026-11-20"
+  },
+  {
+    "id": "rx7-jada-orc-gold-15",
+    "name": "Mazda RX-7 · Import Racer ORC Nr. 15",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:18",
+    "color": "Aukso ir sidabro",
+    "series": "Import Racer · ORC · Nr. 15 · 63524",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Mazda Miniatures – gamintojo ir mastelio katalogas",
+      "url": "https://www.mazdaminiatures.com/metal.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Aukso ir sidabro spalvų „Jada Import Racer“ Mazda RX-7 su „ORC / Ogura Racing Clutch“ grafika ir numeriu 15. Chromo spalvos penkių stipinų ratlankiai, raudonos sėdynės ir aukštas galinis spoileris. Dėžutėje matomi papildomi ratlankiai bei variklio dangtis; pakuotėje pažymėti „Volk Racing TE37“ ir „Do Luck Double Six“.",
+    "story": "Šį „Import Racer“ variantą atskiria „ORC“ dekoracija, numeris 15 ir dviejų metalo atspalvių dažymas. Dėžutėje kartu pateikti papildomi tiuningo priedai.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-jada-orc-gold-15-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "mx5-norev-na-red-188020",
+    "name": "1989 Mazda MX-5 · Norev",
+    "model": "MX-5",
+    "maker": "Norev",
+    "scale": "1:18",
+    "color": "Raudona",
+    "series": "Norev Collectors · 188020",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Norev – 188020",
+      "url": "https://www.norev.com/en/products/9716-mazda-mx-5-1989-red-1-18"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Raudonas „Norev“ pirmos kartos Mazda MX-5 (NA) su juodu salonu, atviru stogu ir sidabro spalvos ratlankiais. Originalioje „Norev Collectors“ dėžutėje už modeliuko matomas atskiras stogas. Katalogo kodas 188020, mastelis 1:18.",
+    "story": "NA – pirmosios kartos MX-5. Šis „Norev“ modelis vaizduoja raudoną 1989 metų automobilį; tai automobilio modelio metai, o ne miniatiūros išleidimo data.",
+    "catalog": {
+      "url": "photos/2026-11-21/mx5-norev-na-red-188020-catalog.webp",
+      "sourceUrl": "https://livecarmodel.com/products/1-18-norev-1989-mazda-mx-5-red-diecast-car-model.html",
+      "sourceName": "LiveCarModel – Norev 188020",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/24439/114787/QQ20220820085108__29904.1661010740.png?c=2"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-21/mx5-norev-na-red-188020-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-jada-drft-blue-9",
+    "name": "Mazda RX-7 · Import Racer DRFT Nr. 9",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:18",
+    "color": "Mėlyna",
+    "series": "Import Racer · DRFT · Nr. 9 · 63524",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Mazda Miniatures – gamintojo ir mastelio katalogas",
+      "url": "https://www.mazdaminiatures.com/metal.html"
+    },
+    "condition": "Fotografuotas be pakuotės",
+    "conditionTag": "Be pakuotės",
+    "description": "Mėlynas „Jada Import Racer“ Mazda RX-7 su „DRFT“ šonų grafika ir numeriu 9. Matomi mėlyni salono akcentai, sportiniai ratlankiai, išplatintas kėbulas ir aukštas juodas galinis spoileris. Fotografuotas be pakuotės.",
+    "story": "„DRFT“ numerio 9 leidimas yra atskiras „Import Racer“ RX-7 variantas. Mėlynas dažymas ir dekoracija skiriasi nuo kolekcijoje esančių „ORC“ bei „GReddy“ versijų.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-jada-drft-blue-9-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-jada-mazdaspeed-blue",
+    "name": "Mazda RX-8 · Import Racer Mazdaspeed",
+    "model": "RX-8",
+    "maker": "Jada",
+    "scale": "1:18",
+    "color": "Mėlyna ir žalsva",
+    "series": "Import Racer · Mazdaspeed",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Mazda Miniatures – gamintojo ir mastelio katalogas",
+      "url": "https://www.mazdaminiatures.com/metal.html"
+    },
+    "condition": "Fotografuotas be pakuotės",
+    "conditionTag": "Be pakuotės",
+    "description": "Mėlynas ir žalsvas „Jada Import Racer“ Mazda RX-8 su „Mazdaspeed“ grafika, raudonomis bei sidabro spalvos juostomis ir aukštu galiniu spoileriu. Ant stiklo matomas „Jada“ ženklas, salone – raudoni diržai. Fotografuotas be pakuotės.",
+    "story": "Šis RX-8 pateikiamas kaip sportiškai modifikuota „Import Racer“ interpretacija su „Mazdaspeed“ dekoracija. Jis skiriasi nuo mažesnio nepatvirtinto gamintojo „Fast & Furious“ RX-8.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-jada-mazdaspeed-blue-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-jada-optiond-work-white-72",
+    "name": "Mazda RX-7 · Option D WORK Nr. 72",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:18",
+    "color": "Balta ir violetinė",
+    "series": "Import Racer · Option D · WORK · Nr. 72 · 90010",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Toy Wonders – Jada 90010",
+      "url": "https://www.toywonders.com/site09/diecastB/Jada_Toys_Import_Racer_Option_D_Mazda_RX_7_1_18_White_90010_235p2069.html"
+    },
+    "condition": "Fotografuotas ant pagrindo; išorinė dėžutė nepateikta",
+    "conditionTag": "Ant pagrindo",
+    "description": "Baltas ir violetinis „Jada Option D“ Mazda RX-7 su juodu variklio dangčiu, „WORK“ grafika ir numeriu 72. Balti penkių stipinų ratlankiai. Fotografuotas ant dioramos pagrindo su dviem oranžiniais kūgeliais; išorinė dėžutė nepateikta.",
+    "story": "„Option D“ RX-7 išsiskiria „WORK“ grafika ir dioramos pagrindu su kūgeliais. Kataloge šis baltas variantas nurodomas kodu 90010.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-jada-optiond-work-white-72-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-ertl-spinners-yellow",
+    "name": "1993 Mazda RX-7 · American Muscle Spinners",
+    "model": "RX-7",
+    "maker": "ERTL",
+    "scale": "1:18",
+    "color": "Geltona",
+    "series": "American Muscle · Spinners",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "ERTL American Muscle Spinners – 1:18",
+      "url": "https://www.ebay.com/itm/306544649478"
+    },
+    "condition": "Fotografuotas ant pagrindo; išorinė dėžutė nepateikta",
+    "conditionTag": "Ant pagrindo",
+    "description": "Geltonas „ERTL American Muscle Spinners“ Mazda RX-7 su raudonomis sėdynėmis, raudona galinio spoilerio plokštuma ir chromo spalvos dekoratyviais ratlankiais. Ant kėbulo matomi „Toyo Tires“, „GReddy“, „Endless“ ir „Brembo“ užrašai. Fotografuotas ant pakuotės pagrindo; išorinė dėžutė nepateikta.",
+    "story": "„Spinners“ versiją atskiria dekoratyvūs ratlankiai ir geltonas kėbulas su raudonu spoilerio akcentu. „American Muscle“ ženklas matomas fotografuoto pagrindo priekyje.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-ertl-spinners-yellow-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-ertl-orange-julius-33542",
+    "name": "1993 Mazda RX-7 · Orange Julius, ERTL",
+    "model": "RX-7",
+    "maker": "ERTL",
+    "scale": "1:18",
+    "color": "Oranžinė",
+    "series": "The Fast and the Furious · Orange Julius · 33542",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Toy Wonders – ERTL 33542",
+      "url": "https://www.toywonders.com/site09/models/ERTL_The_Fast_And_The_Furious_Mazda_RX7_1993_1_18_Orange_33542_35p182.html"
+    },
+    "condition": "Fotografuotas ant pagrindo; išorinė dėžutė nepateikta",
+    "conditionTag": "Ant pagrindo",
+    "description": "Oranžinis „ERTL“ Mazda RX-7 „Orange Julius“ variantas su geltona šonų bei variklio dangčio grafika, raudonomis sėdynėmis ir chromo spalvos trijų stipinų ratlankiais. Ant slenksčių matomi „J-Spec“ ir „Toyo Tires“ užrašai. Fotografuotas ant „The Fast and the Furious“ pagrindo; išorinė dėžutė nepateikta.",
+    "story": "„Orange Julius“ dekoracija siejama su „2 Fast 2 Furious“ RX-7. Tai 1:18 „ERTL“ egzempliorius, atskiras nuo kolekcijoje esančios mažesnės, skaidriame dėkle fotografuotos versijos.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-ertl-orange-julius-33542-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "787-cmr-white-blue-56",
+    "name": "1991 Mazda 787 · Le Mans Nr. 56",
+    "model": "787",
+    "maker": "CMR",
+    "scale": "1:18",
+    "color": "Balta ir mėlyna",
+    "series": "Racing Edition · Le Mans 1991 · Nr. 56 · CMR207",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "LiveCarModel – CMR207",
+      "url": "https://livecarmodel.com/products/1-18-cmr-mazda-787-56-8th-24h-lemans-1991-yorino-terada-dieudonne-car-model.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Baltas ir mėlynas „CMR“ Mazda 787 lenktyninis prototipas su numeriu 56, uždengtais priekiniais ratais ir „Mazda“ užrašais. Originalioje „CMR Racing Edition“ dėžutėje. Katalogo kodas CMR207; katalogas šį automobilį vadina 787, nors pakuotės pagrinde parašyta „787B“.",
+    "story": "1991 metų Le Mano numerio 56 automobilis kataloge identifikuotas kaip Mazda 787. Pakuotės užrašą „787B“ paliekame aprašyme, kad jis nebūtų supainiotas su oranžiniu ir žaliu numerio 55 modeliu.",
+    "catalog": {
+      "url": "photos/2026-11-21/787-cmr-white-blue-56-catalog.webp",
+      "sourceUrl": "https://livecarmodel.com/products/1-18-cmr-mazda-787-56-8th-24h-lemans-1991-yorino-terada-dieudonne-car-model.html",
+      "sourceName": "LiveCarModel – CMR207",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/19147/94158/QQ20220309112319__39324.1702137501.png?c=2"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-21/787-cmr-white-blue-56-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "787b-cmr-renown-55",
+    "name": "1991 Mazda 787B · Le Mans Nr. 55",
+    "model": "787B",
+    "maker": "CMR",
+    "scale": "1:18",
+    "color": "Oranžinė ir žalia",
+    "series": "Racing Edition · Le Mans 1991 · RENOWN · Nr. 55 · CMR175",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "LiveCarModel – CMR175",
+      "url": "https://livecarmodel.com/products/1-18-cmr-mazda-787b-55-winner-24h-lemans-1991-weidler-herbert-gachot-car-model.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Oranžinis ir žalias „CMR“ Mazda 787B su „RENOWN“ grafika, baltomis punktyrinėmis linijomis ir numeriu 55. Originalioje „CMR Racing Edition“ dėžutėje. Katalogo kodas CMR175, mastelis 1:18.",
+    "story": "Mazda 787B numeriu 55 laimėjo 1991 metų Le Mano 24 valandų lenktynes. Šis „CMR“ modelis atkartoja oranžinę ir žalią „RENOWN“ dekoraciją; automobilio metai nėra modeliuko išleidimo data.",
+    "catalog": {
+      "url": "photos/2026-11-21/787b-cmr-renown-55-catalog.webp",
+      "sourceUrl": "https://livecarmodel.com/products/1-18-cmr-mazda-787b-55-winner-24h-lemans-1991-weidler-herbert-gachot-car-model.html",
+      "sourceName": "LiveCarModel – CMR175",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/19153/94175/61pRnE5onPL._AC_SL1000___32399.1646856721.jpg?c=2"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-21/787b-cmr-renown-55-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-norev-darkdog-yellow",
+    "name": "Mazda RX-8 · Dark Dog by Sha_Do",
+    "model": "RX-8",
+    "maker": "Norev",
+    "scale": "1:18",
+    "color": "Geltona ir juoda",
+    "series": "Drift Championship · Dark Dog · Sha_Do · 188008",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 nurodytas pakuotėje ir patvirtintas kataloge.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Mazda Miniatures – gamintojo ir mastelio katalogas",
+      "url": "https://www.mazdaminiatures.com/metal.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Geltonas ir juodas „Norev“ Mazda RX-8 „Dark Dog by Sha_Do“ su lenktynine grafika, plačiais chromo spalvos ratlankiais ir galiniu spoileriu. Originalioje „Drift Championship“ dėžutėje, kurios priekyje nurodytas mastelis 1:18. Katalogo kodas 188008.",
+    "story": "„Dark Dog“ – atskiras „Norev“ RX-8 tiuningo variantas, sukurtas su „Sha_Do“ dekoracija. Geltonas kėbulas ir ratlankiai jį atskiria nuo baltos numerio 28 ir juodos „Team Norev“ versijų.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-norev-darkdog-yellow-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-jada-greddy-orange-819",
+    "name": "Mazda RX-7 · Import Racer GReddy Nr. 819",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:18",
+    "color": "Oranžinė ir pilka",
+    "series": "Import Racer · GReddy · Nr. 819",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Carousell – Jada Import Racer 1:18 GReddy",
+      "url": "https://www.carousell.com.my/p/jada-toys-import-racer-mazda-rx-7-1416130528/"
+    },
+    "condition": "Fotografuotas be pakuotės",
+    "conditionTag": "Be pakuotės",
+    "description": "Vario atspalvio oranžinis ir pilkas „Jada Import Racer“ Mazda RX-7 su liepsnų grafika, dideliu „GReddy“ užrašu ir numeriu 819. „Falken“ bei „Motorex“ dekoracija, sportiniai ratlankiai ir aukštas galinis spoileris. Fotografuotas be pakuotės.",
+    "story": "Šį „Jada Import Racer“ RX-7 atskiria vario spalvos kėbulas, „GReddy“ grafika ir numeris 819. Konkretaus šio spalvinio varianto katalogo kodo netvirtiname.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-jada-greddy-orange-819-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-norev-shado-white-28",
+    "name": "Mazda RX-8 · Drift by Sha_Do Nr. 28",
+    "model": "RX-8",
+    "maker": "Norev",
+    "scale": "1:18",
+    "color": "Balta ir juoda",
+    "series": "Street Racer · Drift by Sha_Do · Nr. 28 · 188005",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Toy Wonders – Norev 188005",
+      "url": "https://www.toywonders.com/productcart/pc/Norev-Street-Racer-RX8-Drift-by-Sha-do-28-1-18-scale-diecast-model-car-188005-94p11735.htm"
+    },
+    "condition": "Fotografuotas ant pagrindo; išorinė dėžutė nepateikta",
+    "conditionTag": "Ant pagrindo",
+    "description": "Baltas ir juodas „Norev“ Mazda RX-8 „Drift by Sha_Do“ su numeriu 28, piešinių grafika, juodu variklio dangčiu ir juodais ratlankiais su oranžiniais apvadais. Galinio spoilerio viršuje – „ADVAN“. Fotografuotas ant „Norev“ pagrindo; išorinė dėžutė nepateikta.",
+    "story": "„Drift by Sha_Do“ numerio 28 leidimas priklauso „Norev Street Racer“ RX-8 linijai. Kataloge šiam baltam ir juodam variantui priskirtas kodas 188005.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-norev-shado-white-28-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-norev-team-black-red",
+    "name": "Mazda RX-8 · Team Norev",
+    "model": "RX-8",
+    "maker": "Norev",
+    "scale": "1:18",
+    "color": "Juoda ir raudona",
+    "series": "Street Racer · Team Norev · Sha_Do · 188006",
+    "packaged": false,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Toy Wonders – Norev 188006",
+      "url": "https://www.toywonders.com/productcart/pc/Norev-Street-Racer-RX8-Team-Norev-2007-1-18-scale-diecast-model-car-188006-94p11736.htm"
+    },
+    "condition": "Fotografuotas ant pagrindo; išorinė dėžutė nepateikta",
+    "conditionTag": "Ant pagrindo",
+    "description": "Juodas, raudonai ir baltai dekoruotas „Norev“ Mazda RX-8 „Team Norev“ su chromo spalvos penkių stipinų ratlankiais ir aukštu galiniu spoileriu. Ant stogo – „NOREV.COM“, šonuose – „Team Norev“ užrašai. Fotografuotas ant ekspozicinio pagrindo; išorinė dėžutė nepateikta.",
+    "story": "„Team Norev“ – juodas ir raudonas „Norev Street Racer“ RX-8 variantas. Katalogo kodas 188006 padeda jį atskirti nuo kitų „Sha_Do“ dekoracijų.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-norev-team-black-red-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-autoart-police-75961",
+    "name": "Mazda RX-8 · Japonijos policija",
+    "model": "RX-8",
+    "maker": "AUTOart",
+    "scale": "1:18",
+    "color": "Balta ir juoda",
+    "series": "Police Division · 75961",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "Mazda Miniatures – gamintojo ir mastelio katalogas",
+      "url": "https://www.mazdaminiatures.com/metal.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Baltas ir juodas „AUTOart“ Mazda RX-8 Japonijos policijos automobilis su raudonais švyturėliais, policijos užrašais ir numeriu ant stogo. Originalioje mėlynoje „Police Division“ dėžutėje. Katalogo kodas 75961, mastelis 1:18.",
+    "story": "„Police Division“ serijos RX-8 vaizduoja Japonijos policijos automobilį. Tai atskiras „AUTOart“ modelis, nesusijęs su kolekcijoje esančiu „Premium X“ Hirošimos policijos CX-5.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-autoart-police-75961-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx8-autoart-lm-renesis-55",
+    "name": "Mazda RX-8 · LM Edition RENESIS Nr. 55",
+    "model": "RX-8",
+    "maker": "AUTOart",
+    "scale": "1:18",
+    "color": "Oranžinė ir žalia",
+    "series": "Racing Division · LM Edition · RENESIS · Nr. 55 · 80443",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "LiveCarModel – AUTOart 80443",
+      "url": "https://livecarmodel.com/products/1-18-autoart-mazda-rx-8-rx8-lm-diecast-car-model-80443.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Oranžinis ir žalias „AUTOart“ Mazda RX-8 „LM Edition“ su „RENESIS“ grafika, numeriu 55 ir aukso spalvos ratlankiais. Originalioje „AUTOart Racing Division“ dėžutėje. Katalogo kodas 80443, mastelis 1:18.",
+    "story": "„LM Edition“ RX-8 naudoja oranžinę ir žalią numerio 55 dekoraciją. Tai RX-8 kupė interpretacija, atskira nuo Mazda 787B lenktyninio prototipo.",
+    "catalog": {
+      "url": "photos/2026-11-21/rx8-autoart-lm-renesis-55-catalog.webp",
+      "sourceUrl": "https://livecarmodel.com/products/1-18-autoart-mazda-rx-8-rx8-lm-diecast-car-model-80443.html",
+      "sourceName": "LiveCarModel – AUTOart 80443",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/2547/27457/s-l1600__30908.1549768280.jpg?c=2"
+    },
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx8-autoart-lm-renesis-55-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "mx5-autoart-nra-grey-01",
+    "name": "Mazda MX-5 Roadster (NC) · NR-A Nr. 01",
+    "model": "MX-5",
+    "maker": "AUTOart",
+    "scale": "1:18",
+    "color": "Pilka",
+    "series": "Racing Division · NR-A Mazdaspeed · Nr. 01 · 80643",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 patvirtintas šio varianto katalogo įraše.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "1zu87 – AUTOart 80643",
+      "url": "https://galerie.1zu87.com/artikel/1zu18-Mazda-MX-5-Roadster-NR-A-Mazdaspeed-galaxy-grau-met-Nr01-RHD-AUTOart-80643-21849.html"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Pilkas metalizuotas „AUTOart“ Mazda MX-5 Roadster (NC) NR-A su juodai languota galine kėbulo dalimi ir baltais apskritimais su numeriu 01. Atviras juodas salonas su saugos lanku. Originalioje „AUTOart Racing Division“ dėžutėje, katalogo kodas 80643, mastelis 1:18.",
+    "story": "NR-A „Mazdaspeed“ variantas vaizduoja trečiosios kartos NC rodsterį. Pilka spalva ir numeris 01 identifikuoja „AUTOart“ 80643 leidimą.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/mx5-autoart-nra-grey-01-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "rx7-jada-han-figure-orange-black",
+    "name": "Mazda RX-7 · Han ir figūrėlė",
+    "model": "RX-7",
+    "maker": "Jada",
+    "scale": "1:24",
+    "color": "Oranžinė ir juoda",
+    "series": "Fast & Furious · Tokyo Drift · Han ir figūrėlė",
+    "packaged": true,
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:24 nurodytas pakuotėje ir patvirtintas kataloge.",
+    "scaleSource": {
+      "type": "catalog",
+      "sourceName": "INS Hobby – Jada su Hano figūrėle",
+      "url": "https://inshobby.com/products/1-24-han-mazda-rx-7-alloy-model-car"
+    },
+    "condition": "Originalioje gamintojo dėžutėje",
+    "conditionTag": "Su dėže",
+    "description": "Oranžinis ir juodas „Jada“ Mazda RX-7 su išplatintu kėbulu, dideliu galiniu spoileriu bei chromo spalvos ratlankiais. Originalioje „Fast & Furious“ dėžutėje kartu su Hano figūrėle. Ant pakuotės nurodyta „Han & Mazda RX-7 (As Seen in Tokyo Drift)“; rinkinio mastelis 1:24.",
+    "story": "Rinkinys skirtas Hano Mazda RX-7 iš „Tokyo Drift“. Automobilis ir figūrėlė saugomi viename kolekcijos įraše kaip viena pakuotė.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-jada-han-figure-orange-black-main.jpg",
+        "label": "Mano kolekcijos nuotrauka"
+      }
+    ],
+    "added": "2026-11-21"
   }
 ];
