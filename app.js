@@ -9,20 +9,23 @@ const condition = item => item.condition || (item.packaged ? 'Originalioje pakuo
 const conditionTag = item => item.conditionTag || (item.packaged ? 'Pakuotėje' : 'Be pakuotės');
 const modelValues = item => item.models || [item.model];
 const filterValues = (item, key) => key === 'model' ? modelValues(item) : [item[key]];
-const ownerPhotos = item => (item.photos || []).map(entry => typeof entry === 'string' ? {url:entry, label:'Mano kolekcijos nuotrauka'} : entry);
-const failedCatalogs = new Set();
-const hasCatalog = item => item.catalog && !failedCatalogs.has(item.catalog.url);
+const collectionPhotos = item => (item.photos || []).map(entry => typeof entry === 'string' ? {url:entry, label:'Mano kolekcijos nuotrauka'} : entry);
+const failedPhotos = new Set();
 const placeholder = (item, large = false) => `<div class="placeholder ${large ? 'large' : ''}"><span class="ghost">${esc(item.model)}</span><span class="photo-label">NUOTRAUKA RUOŠIAMA</span><span class="photo-number">${esc(brandLabel(item))} / ${esc(scaleLabel(item))}</span></div>`;
-const photosFor = item => [
-  ...(hasCatalog(item) ? [{...item.catalog, label: 'Kataloginė nuotrauka'}] : []),
-  ...ownerPhotos(item)
+const allPhotos = item => [
+  ...(item.catalog ? [{label: 'Kataloginė nuotrauka', ...item.catalog}] : []),
+  ...collectionPhotos(item)
 ];
-const primaryPhotoIndex = item => hasCatalog(item) ? 0 : Math.max(0, photosFor(item).length - 1);
+const photosFor = item => allPhotos(item).filter(entry => !failedPhotos.has(entry.url));
+const primaryPhotoIndex = item => item.catalog && !failedPhotos.has(item.catalog.url) ? 0 : Math.max(0, photosFor(item).length - 1);
 const photo = (item, large = false, index = primaryPhotoIndex(item)) => {
   const entry = photosFor(item)[index];
   if (!entry) return placeholder(item, large);
-  const fallback = entry.sourceUrl ? (ownerPhotos(item).at(-1)?.url || '') : '';
-  return `<div class="model-photo ${large ? 'large-photo' : ''}"><img src="${esc(encodeURI(entry.url))}" ${fallback ? `data-fallback="${esc(encodeURI(fallback))}" data-catalog-url="${esc(entry.url)}"` : ''} alt="${esc(item.name)} – ${esc(entry.label)}" loading="${large ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></div>`;
+  const fallback = entry.sourceUrl ? collectionPhotos(item).at(-1) : undefined;
+  const fallbackAttributes = fallback && fallback.url !== entry.url
+    ? `data-fallback="${esc(encodeURI(fallback.url))}" data-fallback-alt="${esc(item.name)} – ${esc(fallback.label)}" data-photo-url="${esc(entry.url)}"`
+    : '';
+  return `<div class="model-photo ${large ? 'large-photo' : ''}"><img src="${esc(encodeURI(entry.url))}" ${fallbackAttributes} alt="${esc(item.name)} – ${esc(entry.label)}" loading="${large ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></div>`;
 };
 let activeItem;
 let activePhotoIndex = 0;
@@ -31,7 +34,7 @@ const gallery = (item, index = primaryPhotoIndex(item)) => {
   const entries = photosFor(item), entry = entries[index];
   if (!entry) return placeholder(item,true);
   const navigation = entries.length > 1 ? `<button type="button" class="gallery-nav gallery-prev" data-photo-step="-1" aria-label="Ankstesnė nuotrauka"><span aria-hidden="true">‹</span></button><button type="button" class="gallery-nav gallery-next" data-photo-step="1" aria-label="Kita nuotrauka"><span aria-hidden="true">›</span></button><span class="gallery-counter" aria-hidden="true">${index+1} / ${entries.length}</span>` : '';
-  const notice = failedCatalogs.has(item.catalog?.url) ? '<br>Kataloginė nuotrauka nepasiekiama.' : '';
+  const notice = allPhotos(item).some(entry => failedPhotos.has(entry.url)) ? '<br>Šaltinio nuotrauka nepasiekiama.' : '';
   return `<div class="gallery-stage">${photo(item,true,index)}${navigation}</div><div class="gallery-caption" role="status"><span class="sr-only">Nuotrauka ${index+1} iš ${entries.length}. </span>${esc(entry.label)}${entry.sourceUrl ? ` · <a href="${esc(entry.sourceUrl)}" target="_blank" rel="noopener noreferrer">Šaltinis: ${esc(entry.sourceName)} ↗</a>` : ''}${notice}</div><div class="gallery-tabs" role="group" aria-label="Nuotraukų pasirinkimas">${entries.map((entry,i)=>`<button type="button" data-photo-index="${i}" aria-pressed="${i===index}">${i+1}. ${esc(entry.label)}</button>`).join('')}</div>`;
 };
 const selectPhoto = (index, focusSelector) => {
@@ -45,17 +48,23 @@ const selectPhoto = (index, focusSelector) => {
 document.addEventListener('error',event => {
   const image = event.target;
   if (image.tagName !== 'IMG' || !image.dataset.fallback) return;
-  const catalogUrl = image.dataset.catalogUrl;
-  const firstFailure = !failedCatalogs.has(catalogUrl);
-  failedCatalogs.add(catalogUrl);
-  image.src = image.dataset.fallback;
-  image.alt = image.alt.replace('Kataloginė nuotrauka','Mano kolekcijos nuotrauka');
-  delete image.dataset.fallback;
-  delete image.dataset.catalogUrl;
-  if (firstFailure && activeItem?.catalog?.url === catalogUrl && $('detail').open) {
-    activePhotoIndex = activePhotoIndex > 0 ? activePhotoIndex - 1 : primaryPhotoIndex(activeItem);
+  const {photoUrl, fallback, fallbackAlt} = image.dataset;
+  const activeEntries = activeItem && $('detail').open ? photosFor(activeItem) : [];
+  const failedIndex = activeEntries.findIndex(entry => entry.url === photoUrl);
+  failedPhotos.add(photoUrl);
+
+  if (failedIndex !== -1) {
+    if (activePhotoIndex === failedIndex) activePhotoIndex = photosFor(activeItem).length - 1;
+    else if (activePhotoIndex > failedIndex) activePhotoIndex--;
     $('detail-gallery').innerHTML = gallery(activeItem,activePhotoIndex);
   }
+
+  if (!image.isConnected) return;
+  delete image.dataset.fallback;
+  delete image.dataset.fallbackAlt;
+  delete image.dataset.photoUrl;
+  image.alt = fallbackAlt;
+  image.src = fallback;
 },true);
 $('detail-body').addEventListener('click',event => {
   const button = event.target.closest('[data-photo-index], [data-photo-step]');

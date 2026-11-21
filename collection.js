@@ -2435,6 +2435,18 @@ window.collection = [
     "story": "„Spinners“ versiją atskiria dekoratyvūs ratlankiai ir geltonas kėbulas su raudonu spoilerio akcentu. „American Muscle“ ženklas matomas fotografuoto pagrindo priekyje.",
     "photos": [
       {
+        "url": "photos/2026-11-21/rx7-ertl-spinners-yellow-dba.webp",
+        "sourceUrl": "https://www.dba.dk/recommerce/forsale/item/22899424",
+        "sourceName": "DBA",
+        "label": "DBA skelbimo nuotrauka"
+      },
+      {
+        "url": "photos/2026-11-21/rx7-ertl-spinners-yellow-dba-open.webp",
+        "sourceUrl": "https://www.dba.dk/recommerce/forsale/item/22899424",
+        "sourceName": "DBA",
+        "label": "DBA skelbimo nuotrauka – atvertos dalys"
+      },
+      {
         "url": "photos/2026-11-21/rx7-ertl-spinners-yellow-main.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
@@ -2630,11 +2642,22 @@ window.collection = [
     "story": "„Drift by Sha_Do“ numerio 28 leidimas priklauso „Norev Street Racer“ RX-8 linijai. Kataloge šiam baltam ir juodam variantui priskirtas kodas 188005.",
     "photos": [
       {
+        "url": "photos/2026-11-21/rx8-norev-shado-white-28-carmodel-open.webp",
+        "sourceUrl": "https://www.carmodel.com/ru/norev/188005/1-18/mazda/rx-8-racing-n-28-drift-by-shado/39503",
+        "sourceName": "Carmodel",
+        "label": "Kataloginė nuotrauka – atvertos dalys"
+      },
+      {
         "url": "photos/2026-11-21/rx8-norev-shado-white-28-main.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "photos/2026-11-21/rx8-norev-shado-white-28-carmodel.webp",
+      "sourceUrl": "https://www.carmodel.com/ru/norev/188005/1-18/mazda/rx-8-racing-n-28-drift-by-shado/39503",
+      "sourceName": "Carmodel"
+    }
   },
   {
     "id": "rx8-norev-team-black-red",
@@ -2658,15 +2681,21 @@ window.collection = [
     "story": "„Team Norev“ – juodas ir raudonas „Norev Street Racer“ RX-8 variantas. Katalogo kodas 188006 padeda jį atskirti nuo kitų „Sha_Do“ dekoracijų.",
     "photos": [
       {
+        "url": "photos/2026-11-21/rx8-norev-team-black-red-scalecar-open.webp",
+        "sourceUrl": "https://scalecar.ru/models/norev-mazda-rx8-team-norev-2008-188006.html",
+        "sourceName": "ScaleCar",
+        "label": "Kataloginė nuotrauka – atvertos dalys"
+      },
+      {
         "url": "photos/2026-11-21/rx8-norev-team-black-red-main.jpg",
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
     "added": "2026-11-21",
     "catalog": {
-      "url": "https://www.alldiecast.co.uk/images/images_miniatures/143432.jpg",
-      "sourceUrl": "https://www.alldiecast.co.uk/mazda/p/1836-mazda-rx8-1-18-norev-team-norev-tuning-2007.html",
-      "sourceName": "Alldiecast · Team Norev"
+      "url": "photos/2026-11-21/rx8-norev-team-black-red-scalecar.webp",
+      "sourceUrl": "https://scalecar.ru/models/norev-mazda-rx8-team-norev-2008-188006.html",
+      "sourceName": "ScaleCar"
     }
   },
   {
