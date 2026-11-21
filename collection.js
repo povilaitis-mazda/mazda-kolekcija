@@ -233,7 +233,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-10"
+    "added": "2026-11-10",
+    "catalog": {
+      "url": "https://www.bcnstockcars.com/124806-thickbox_default/mazda-rx-7-fd-orange-fast-furious-143-altaya-ixo.jpg",
+      "sourceUrl": "https://www.bcnstockcars.com/gb/japan-cars/26293-mazda-rx-7-fd-orange-fast-furious-143-altaya-ixo.html",
+      "sourceName": "BCN Stock Cars · Fast & Furious"
+    }
   },
   {
     "id": "cx5-red-118",
@@ -768,6 +773,11 @@ window.collection = [
     "scaleSource": {
       "type": "owner-confirmation",
       "date": "2026-11-14"
+    },
+    "catalog": {
+      "url": "https://wheelcollectors.com/cdn/shop/files/20251219_151739.jpg?v=1766243030",
+      "sourceUrl": "https://wheelcollectors.com/products/2004-mazda-rx-8-19-2026-matchbox-power-grabs-case-c",
+      "sourceName": "Wheelcollectors · Power Grabs Nr. 19"
     }
   },
   {
@@ -796,6 +806,11 @@ window.collection = [
     "scaleSource": {
       "type": "owner-confirmation",
       "date": "2026-11-14"
+    },
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/bsgAAeSw5zhp-lQo/s-l1600.webp",
+      "sourceUrl": "https://www.ebay.com/itm/178108386286",
+      "sourceName": "eBay · Matchbox Power Grabs Nr. 14"
     }
   },
   {
@@ -2263,7 +2278,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/sKkAAOSw8w9mpayu/s-l1600.webp",
+      "sourceUrl": "https://www.ebay.ca/itm/235671209196",
+      "sourceName": "eBay · Jada Import Racer ORC"
+    }
   },
   {
     "id": "mx5-norev-na-red-188020",
@@ -2325,7 +2345,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/myQAAeSwaPdqTCeG/s-l1600.webp",
+      "sourceUrl": "https://www.ebay.ca/itm/236921495222",
+      "sourceName": "eBay · Jada Import Racer DRFT"
+    }
   },
   {
     "id": "rx8-jada-mazdaspeed-blue",
@@ -2353,7 +2378,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/sDYAAeSwOWhoxpwn/s-l1600.webp",
+      "sourceUrl": "https://www.ebay.de/itm/376549486652",
+      "sourceName": "eBay · Jada Import Racer, mėlynas 1:18 RX-8"
+    }
   },
   {
     "id": "rx7-jada-optiond-work-white-72",
@@ -2381,7 +2411,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.toywonders.com/productcart/pc/catalog/90010W.jpg",
+      "sourceUrl": "https://www.toywonders.com/site09/diecastB/Jada_Toys_Import_Racer_Option_D_Mazda_RX_7_1_18_White_90010_235p2069.html",
+      "sourceName": "Toy Wonders · Jada 90010W"
+    }
   },
   {
     "id": "rx7-ertl-spinners-yellow",
@@ -2409,7 +2444,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.nicecardiecast.com/cdn/shop/files/1993.png?v=1718907365&width=1500",
+      "sourceUrl": "https://www.nicecardiecast.com/en/collections/hard-to-find-1/products/1995-mitsubishi-eclipse-street-tune-nx-nitrous-copy",
+      "sourceName": "Nice Car Diecast · ERTL 33797"
+    }
   },
   {
     "id": "rx7-ertl-orange-julius-33542",
@@ -2437,7 +2477,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.toywonders.com/productcart/pc/catalog/33542or_zoom.jpg",
+      "sourceUrl": "https://www.toywonders.com/site09/models/ERTL_The_Fast_And_The_Furious_Mazda_RX7_1993_1_18_Orange_33542_35p182.html",
+      "sourceName": "Toy Wonders · ERTL 33542"
+    }
   },
   {
     "id": "787-cmr-white-blue-56",
@@ -2533,7 +2578,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.tacot.com/photos/neuf/grandes/6/0/3/60360.jpg",
+      "sourceUrl": "https://www.tacot.com/listings/mazda-rx8-racing-dark-dog-2008-delahaye-roze-norev-60360-0",
+      "sourceName": "Tacot · Norev Dark Dog"
+    }
   },
   {
     "id": "rx7-jada-greddy-orange-819",
@@ -2561,7 +2611,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://img.ricardostatic.ch/images/282f4d30-29ba-41ef-b2f1-897a80f8226e/t_1000x750/mazda-rx-7-118-import-racer-by-jada-toys-eher-selten",
+      "sourceUrl": "https://www.ricardo.ch/de/a/mazda-rx-7-1-18-import-racer-by-jada-toys-eher-selten-1282503206/",
+      "sourceName": "Ricardo · Jada Import Racer"
+    }
   },
   {
     "id": "rx8-norev-shado-white-28",
@@ -2589,7 +2644,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://i.ebayimg.com/images/g/6t4AAeSwKWtqwhlv/s-l1600.webp",
+      "sourceUrl": "https://www.befr.ebay.be/itm/880120418791",
+      "sourceName": "eBay · Norev Drift by Sha_Do Nr. 28"
+    }
   },
   {
     "id": "rx8-norev-team-black-red",
@@ -2617,7 +2677,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.alldiecast.co.uk/images/images_miniatures/143432.jpg",
+      "sourceUrl": "https://www.alldiecast.co.uk/mazda/p/1836-mazda-rx8-1-18-norev-team-norev-tuning-2007.html",
+      "sourceName": "Alldiecast · Team Norev"
+    }
   },
   {
     "id": "rx8-autoart-police-75961",
@@ -2645,7 +2710,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.kaitori-world.jp/html/upload/save_image/5530/7/55307223.jpg",
+      "sourceUrl": "https://www.kaitori-world.jp/products/detail/397016",
+      "sourceName": "Kaitori World · AUTOart 75961"
+    }
   },
   {
     "id": "rx8-autoart-lm-renesis-55",
@@ -2707,7 +2777,12 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.1zu87.com/modellautobilder/1zu18_Mazda_MX-5_Roadster_NR-A_Mazdaspeed_galaxy-grau-met_Nr_01_RHD__AUTOart_80643_21849_01.JPG",
+      "sourceUrl": "https://galerie.1zu87.com/artikel/1zu18-Mazda-MX-5-Roadster-NR-A-Mazdaspeed-galaxy-grau-met-Nr01-RHD-AUTOart-80643-21849.html",
+      "sourceName": "1zu87 · AUTOart 80643"
+    }
   },
   {
     "id": "rx7-jada-han-figure-orange-black",
@@ -2735,6 +2810,84 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21"
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "photos/2026-11-21/rx7-jada-han-figure-orange-black-catalog.webp",
+      "sourceUrl": "https://livecarmodel.com/products/1-24-jada-1995-mazda-rx-7-widebody-rhd-right-hand-drive-orange-metallic-and-black-with-han-diecast-figurine-the-fast-and-the-furious-tokyo-drift-2006-movie-diecast-model-car.html",
+      "sourceName": "LiveCarModel · Jada 33174",
+      "originalUrl": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/17990/90005/217__94697.1638614453.jpg?c=2"
+    }
+  },
+  {
+    "id": "rx7-autoart-savanna-mach-green",
+    "name": "Mazda Savanna RX-7 (SA) · Mach Green",
+    "model": "RX-7",
+    "maker": "AUTOart",
+    "scale": "1:18",
+    "scaleApproximate": false,
+    "scaleNote": "Mastelis 1:18 pažymėtas ant dėžutės. „AUTOart“ katalogo numeris 75981 žymi „Mach Green“ variantą.",
+    "scaleSource": {
+      "type": "packaging"
+    },
+    "series": "Millennium · 75981",
+    "color": "Žalia metalizuota",
+    "packaged": true,
+    "condition": "Originalioje „AUTOart Millennium“ dėžutėje ant ekspozicinio pagrindo",
+    "conditionTag": "Su dėže",
+    "description": "„Mach Green“ spalvos kupė su šviesiai rudu salonu, veidrodėliais ant priekinių sparnų ir sidabro spalvos ratlankiais. Ant juodo pagrindo užrašyta „Mazda Savanna RX-7 (SA)“.",
+    "story": "SA – pirmosios kartos rotorinio RX-7 žymėjimas. Modeliuke matyti šiai kartai būdingi pakeliami žibintai, ilgas variklio dangtis ir didelis galinis stiklas.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/rx7-autoart-savanna-mach-green-main.jpg",
+        "label": "Mano kolekcijos nuotrauka – modeliukas dėžutėje"
+      }
+    ],
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.eztoys.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/A/U/AU75981-1.jpg",
+      "sourceUrl": "https://www.eztoys.com/sale-mazda-savanna-rx-7-sa-mach-green-75981-autoart-1-18.html",
+      "sourceName": "ezToys · AUTOart 75981"
+    }
+  },
+  {
+    "id": "mazda5-mondsee-2169bl",
+    "name": "Mazda 5 (Premacy CR) · Mondsee",
+    "model": "Mazda 5",
+    "maker": "Paudi Model",
+    "scale": "1:18",
+    "scaleApproximate": false,
+    "scaleNote": "„Mazda Miniatures“ kataloge mėlynas metalizuotas „Mondsee“ variantas įrašytas prie „Paudi Model“. Nurodytas kodas 2169BL ir mastelis 1:18.",
+    "scaleSource": {
+      "type": "catalog",
+      "url": "https://www.mazdaminiatures.com/metal.html",
+      "sourceName": "Mazda Miniatures · Paudi Model 2169BL"
+    },
+    "series": "Mondsee · 2169BL",
+    "color": "Šviesiai mėlyna metalizuota",
+    "packaged": false,
+    "condition": "Fotografuotas be pakuotės",
+    "conditionTag": "Be pakuotės",
+    "description": "Šviesiai mėlynas metalizuotas vienatūris su stoglangiu ir tamsiu salonu. Atsidaro variklio dangtis, priekinės durys ir bagažinė, o galinės šoninės durys slankioja. Dugne įspausta „Mazda5“ ir „Mondsee“.",
+    "story": "Šios CR kartos vienatūris Japonijoje vadinosi „Premacy“, o Europoje – „Mazda 5“. Atvėrus galines slankiąsias duris gerai matyti modelio salono išdėstymas.",
+    "photos": [
+      {
+        "url": "photos/2026-11-21/mazda5-mondsee-2169bl-open.jpg",
+        "label": "Mano kolekcijos nuotrauka – atvertos durys, variklio dangtis ir bagažinė"
+      },
+      {
+        "url": "photos/2026-11-21/mazda5-mondsee-2169bl-base.jpg",
+        "label": "Mano kolekcijos nuotrauka – dugno ženklinimas"
+      },
+      {
+        "url": "photos/2026-11-21/mazda5-mondsee-2169bl-main.jpg",
+        "label": "Mano kolekcijos nuotrauka – vaizdas iš šono"
+      }
+    ],
+    "added": "2026-11-21",
+    "catalog": {
+      "url": "https://www.18scalediecast.com/images/SD02H051-2.jpg",
+      "sourceUrl": "https://www.18scalediecast.com/mazda-5-mpv-diecast-model-118-scale-p-1051.html",
+      "sourceName": "18scaleDiecast · Mazda 5 MPV"
+    }
   }
 ];
