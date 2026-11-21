@@ -2411,12 +2411,7 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21",
-    "catalog": {
-      "url": "https://www.toywonders.com/productcart/pc/catalog/90010W.jpg",
-      "sourceUrl": "https://www.toywonders.com/site09/diecastB/Jada_Toys_Import_Racer_Option_D_Mazda_RX_7_1_18_White_90010_235p2069.html",
-      "sourceName": "Toy Wonders · Jada 90010W"
-    }
+    "added": "2026-11-21"
   },
   {
     "id": "rx7-ertl-spinners-yellow",
@@ -2444,12 +2439,7 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21",
-    "catalog": {
-      "url": "https://www.nicecardiecast.com/cdn/shop/files/1993.png?v=1718907365&width=1500",
-      "sourceUrl": "https://www.nicecardiecast.com/en/collections/hard-to-find-1/products/1995-mitsubishi-eclipse-street-tune-nx-nitrous-copy",
-      "sourceName": "Nice Car Diecast · ERTL 33797"
-    }
+    "added": "2026-11-21"
   },
   {
     "id": "rx7-ertl-orange-julius-33542",
@@ -2644,12 +2634,7 @@ window.collection = [
         "label": "Mano kolekcijos nuotrauka"
       }
     ],
-    "added": "2026-11-21",
-    "catalog": {
-      "url": "https://i.ebayimg.com/images/g/6t4AAeSwKWtqwhlv/s-l1600.webp",
-      "sourceUrl": "https://www.befr.ebay.be/itm/880120418791",
-      "sourceName": "eBay · Norev Drift by Sha_Do Nr. 28"
-    }
+    "added": "2026-11-21"
   },
   {
     "id": "rx8-norev-team-black-red",
@@ -2712,9 +2697,9 @@ window.collection = [
     ],
     "added": "2026-11-21",
     "catalog": {
-      "url": "https://www.kaitori-world.jp/html/upload/save_image/5530/7/55307223.jpg",
-      "sourceUrl": "https://www.kaitori-world.jp/products/detail/397016",
-      "sourceName": "Kaitori World · AUTOart 75961"
+      "url": "https://www.1999.co.jp/itbig09/10097627a.jpg",
+      "sourceUrl": "https://www.1999.co.jp/10097627",
+      "sourceName": "Hobby Search · AUTOart 75961"
     }
   },
   {
@@ -2844,9 +2829,9 @@ window.collection = [
     ],
     "added": "2026-11-21",
     "catalog": {
-      "url": "https://www.eztoys.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/A/U/AU75981-1.jpg",
-      "sourceUrl": "https://www.eztoys.com/sale-mazda-savanna-rx-7-sa-mach-green-75981-autoart-1-18.html",
-      "sourceName": "ezToys · AUTOart 75981"
+      "url": "https://www.1999.co.jp/itbig10/10103656a.jpg",
+      "sourceUrl": "https://www.1999.co.jp/10103656",
+      "sourceName": "Hobby Search · AUTOart 75981"
     }
   },
   {
